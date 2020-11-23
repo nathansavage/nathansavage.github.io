@@ -1,0 +1,65 @@
+/* LAST UPDATED 2020/11/23 */
+
+/* RESET **********************************************************************/
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
+pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small,
+strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label,
+legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas,
+details, figcaption, figure, footer, header, hgroup, menu, nav, section,
+summary, time, mark, audio, video {
+margin: 0; padding: 0; border: 0; outline: 0; font-size: 100%;
+vertical-align: baseline; background: transparent;
+}
+article, aside, figure, footer, header, hgroup, nav, section {
+display: block;
+}
+html {
+-webkit-text-size-adjust: 100%;
+}
+a:active, a:hover {
+outline: none;
+}
+/* END RESET ******************************************************************/
+
+/*
+FONTS
+font-family: 'Roboto Condensed', sans-serif;
+font-family: 'Pavanam', sans-serif;
+*/
+
+/* GENERAL ********************************************************************/
+body{
+font-family: 'Pavanam', sans-serif;
+color: rgb(66,66,66);
+background-color: rgb(244,244,244);
+}
+div.verticalCenterBuffer{
+height: 50%;
+}
+.hidden{
+display: none;
+}
+.centered{
+text-align: center;
+}
+.rightAligned{
+text-align: right;
+}
+.bold{
+font-weight: bold;
+}
+.underlined{
+text-decoration: underline;
+}
+.Roboto_Condensed{
+font-family: 'Roboto Condensed', sans-serif;
+}
+::-moz-selection{
+background: rgb(66,66,66);
+color: rgb(255,255,255);
+}
+::selection{
+background: rgb(66,66,66);
+color: rgb(255,255,255);
+}
+/* END GENERAL ****************************************************************/

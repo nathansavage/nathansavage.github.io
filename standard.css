@@ -64,12 +64,17 @@ color: rgb(255,255,255);
 background: rgb(0,0,0);
 color: rgb(255,255,255);
 }
-iframe, div#fourzerofour{
+iframe, a#fourzerofour, a#fourzerofour:visited{
 background-color: rgb(13,13,13);
 display: block;
 width: 320px;
 height: 180px;
 margin: -90px auto;
+line-height: 180px;
+text-align: center;
+font-size: 24px;
+text-decoration: none;
+color: rgb(255,255,255);
 }
 /* END GENERAL ****************************************************************/
 

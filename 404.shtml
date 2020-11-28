@@ -1,9 +1,0 @@
-<!doctype html>
-<html lang='en'>
-<!-- #include virtual='head.shtml' -->
-  <body>
-    <a href='/' id='fourzerofour'>
-      fourzerofour
-    </a>
-  </body>
-</html>

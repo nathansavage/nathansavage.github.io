@@ -1,4 +1,4 @@
-/* LAST UPDATED 2020/11/28 */
+/* LAST UPDATED 2020/11/25 */
 
 
 /* RESET **********************************************************************/
@@ -24,10 +24,22 @@ outline: none;
 
 
 /* GENERAL ********************************************************************/
+html{
+display: block;
+width: 100%;
+height: 100%;
+}
 body{
+display: block;
+width: 100%;
+height: 100%;
 font-family: sans-serif;
 color: rgb(255,255,255);
 background-color: rgb(13,13,13);
+}
+div.verticalCenterBuffer{
+display: block;
+height: 50%;
 }
 .hidden{
 display: none;
@@ -52,7 +64,7 @@ color: rgb(255,255,255);
 background: rgb(0,0,0);
 color: rgb(255,255,255);
 }
-iframe.youtube, a#fourzerofour, a#fourzerofour:visited{
+iframe, a#fourzerofour, a#fourzerofour:visited{
 background-color: rgb(13,13,13);
 display: block;
 width: 320px;
@@ -69,7 +81,7 @@ color: rgb(255,255,255);
 
 /* 360PX **********************************************************************/
 @media (min-width: 360px) and (min-height: 202.5px){
-  iframe.youtube{
+  iframe{
   width: 360px;
   height: 202.5px;
   margin: -101.25px auto;
@@ -79,7 +91,7 @@ color: rgb(255,255,255);
 
 /* 375PX **********************************************************************/
 @media (min-width: 375px) and (min-height: 210.9375px){
-  iframe.youtube{
+  iframe{
   width: 375px;
   height: 210.9375px;
   margin: -105.46875px auto;
@@ -89,7 +101,7 @@ color: rgb(255,255,255);
 
 /* 411PX **********************************************************************/
 @media (min-width: 411px) and (min-height: 231.1875px){
-  iframe.youtube{
+  iframe{
   width: 411px;
   height: 231.1875px;
   margin: -115.59375px auto;
@@ -99,7 +111,7 @@ color: rgb(255,255,255);
 
 /* 414PX **********************************************************************/
 @media (min-width: 414px) and (min-height: 232.875px){
-  iframe.youtube{
+  iframe{
   width: 414px;
   height: 232.875px;
   margin: -116.4375px auto;
@@ -109,7 +121,7 @@ color: rgb(255,255,255);
 
 /* 600PX **********************************************************************/
 @media (min-width: 600px) and (min-height: 337.5px){
-  iframe.youtube{
+  iframe{
   width: 600px;
   height: 337.5px;
   margin: -168.75px auto;
@@ -119,7 +131,7 @@ color: rgb(255,255,255);
 
 /* 800PX **********************************************************************/
 @media (min-width: 800px) and (min-height: 450px){
-  iframe.youtube{
+  iframe{
   width: 800px;
   height: 450px;
   margin: -225px auto;
@@ -129,7 +141,7 @@ color: rgb(255,255,255);
 
 /* 960PX **********************************************************************/
 @media (min-width: 960px) and (min-height: 540px){
-  iframe.youtube{
+  iframe{
   width: 960px;
   height: 540px;
   margin: -270px auto;
@@ -139,7 +151,7 @@ color: rgb(255,255,255);
 
 /* 1024PX *********************************************************************/
 @media (min-width: 1024px) and (min-height: 576px){
-  iframe.youtube{
+  iframe{
   width: 1024px;
   height: 576px;
   margin: -288px auto;
@@ -149,7 +161,7 @@ color: rgb(255,255,255);
 
 /* 1080PX *********************************************************************/
 @media (min-width: 1080px) and (min-height: 607.5px){
-  iframe.youtube{
+  iframe{
   width: 1080px;
   height: 607.5px;
   margin: -303.75px auto;
@@ -159,7 +171,7 @@ color: rgb(255,255,255);
 
 /* 1280PX *********************************************************************/
 @media (min-width: 1280px) and (min-height: 720px){
-  iframe.youtube{
+  iframe{
   width: 1280px;
   height: 720px;
   margin: -360px auto;
@@ -169,7 +181,7 @@ color: rgb(255,255,255);
 
 /* 1366PX *********************************************************************/
 @media (min-width: 1366px) and (min-height: 768.375px){
-  iframe.youtube{
+  iframe{
   width: 1366px;
   height: 768.375px;
   margin: -384.1875px auto;
@@ -179,7 +191,7 @@ color: rgb(255,255,255);
 
 /* 1440PX *********************************************************************/
 @media (min-width: 1440px) and (min-height: 810px){
-  iframe.youtube{
+  iframe{
   width: 1440px;
   height: 810px;
   margin: -405px auto;
@@ -189,7 +201,7 @@ color: rgb(255,255,255);
 
 /* 1920PX *********************************************************************/
 @media (min-width: 1920px) and (min-height: 1080px){
-  iframe.youtube{
+  iframe{
   width: 1920px;
   height: 1080px;
   margin: -540px auto;
@@ -199,7 +211,7 @@ color: rgb(255,255,255);
 
 /* 2560PX *********************************************************************/
 @media (min-width: 2560px) and (min-height: 1440px){
-  iframe.youtube{
+  iframe{
   width: 2560px;
   height: 1440px;
   margin: -720px auto;

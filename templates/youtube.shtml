@@ -1,0 +1,7 @@
+<!doctype html>
+<html lang='en'>
+<!-- #include virtual='head.shtml' -->
+  <body>
+    <iframe class="youtube" src="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </body>
+</html>

@@ -1,1 +1,1 @@
-nathansavage.github.io
+nathansavage.github.io hosts the static website served at https://nathansavagestudio.com/

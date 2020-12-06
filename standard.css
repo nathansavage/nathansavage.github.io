@@ -1,4 +1,4 @@
-/* LAST UPDATED 2020/11/28 */
+/* LAST UPDATED 20201205B */
 
 
 /* RESET **********************************************************************/
@@ -45,12 +45,12 @@ font-weight: bold;
 text-decoration: underline;
 }
 ::-moz-selection{
-background: rgb(0,0,0);
-color: rgb(255,255,255);
+background: rgb(255,255,255);
+color: rgb(13,13,13);
 }
 ::selection{
-background: rgb(0,0,0);
-color: rgb(255,255,255);
+background: rgb(255,255,255);
+color: rgb(13,13,13);
 }
 iframe.youtube, a#fourzerofour, a#fourzerofour:visited{
 background-color: rgb(13,13,13);

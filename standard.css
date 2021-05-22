@@ -1,4 +1,4 @@
-/* LAST UPDATED 20210510A */
+/* LAST UPDATED 20210521C */
 
 
 
@@ -29,7 +29,7 @@ outline: none;
 body{
 font-family: sans-serif;
 color: rgb(255,255,255);
-background-color: rgb(13,13,13);
+background-color: rgb(178,178,193);
 }
 .hidden{
 display: none;
@@ -48,67 +48,129 @@ text-decoration: underline;
 }
 ::-moz-selection{
 background: rgb(255,255,255);
-color: rgb(13,13,13);
+color: rgb(0,0,0);
 }
 ::selection{
 background: rgb(255,255,255);
-color: rgb(13,13,13);
+color: rgb(0,0,0);
 }
-iframe.youtube, a#fourzerofour, a#fourzerofour:visited{
-background-color: rgb(13,13,13);
+div#contentWrapper{
+display: block;
+width: 320px;
+height: auto;
+margin: 0 auto;
+border: none;
+/*offset-x | offset-y | blur-radius | spread-radius | color*/
+box-shadow: 12px 12px 12px 2px rgba(0, 0, 0, 0.5);
+}
+div#topNav, div#bottomNav, iframe.youtube, a#fourzerofour, a#fourzerofour:visited{
+background-color: rgb(0,0,0);
 display: block;
 width: 320px;
 height: 180px;
+border: none;
 margin: 0 auto;
 line-height: 180px;
 text-align: center;
 font-size: 24px;
 text-decoration: none;
 color: rgb(255,255,255);
-border-radius: 10px;
+}
+div#topNav, div#bottomNav{
+height: 40px;
+}
+a.left, a.right, a.left:visited, a.right:visited{
+display: block;
+width: 40px;
+height: 40px;
+float: left;
+line-height: 40px;
+text-align: center;
+font-size: 24px;
+text-decoration: none;
+color: rgb(255,255,255);
+}
+a.right{
+float: right;
+}
+a.left img, a.right img{
+width: 20px;
+height: 20px;
+margin-top: 10px;
+margin-bottom: 10px;
+}
+a.older img, a.newer img{
+width: 30px;
+height: 30px;
+margin-top: 5px;
+margin-bottom: 5px;
 }
 /* END GENERAL ****************************************************************/
 
 
 
 /* 360PX **********************************************************************/
-@media (min-width: 360px) and (min-height: 202.5px){
+@media (min-width: 360px) and (min-height: 282.5px){
+  div#contentWrapper{
+  width: 360px;
+  }
   iframe.youtube, a#fourzerofour, a#fourzerofour:visited{
   width: 360px;
   height: 202.5px;
   line-height: 202.5px;
+  }
+  div#topNav, div#bottomNav{
+  width: 360px;
   }
 }/* END 360PX *****************************************************************/
 
 
 
 /* 375PX **********************************************************************/
-@media (min-width: 375px) and (min-height: 210.9375px){
+@media (min-width: 375px) and (min-height: 290.9375px){
+  div#contentWrapper{
+  width: 375px;
+  }
   iframe.youtube, a#fourzerofour, a#fourzerofour:visited{
   width: 375px;
   height: 210.9375px;
   line-height: 210.9375px;
+  }
+  div#topNav, div#bottomNav{
+  width: 375px;
   }
 }/* END 375PX *****************************************************************/
 
 
 
 /* 411PX **********************************************************************/
-@media (min-width: 411px) and (min-height: 231.1875px){
+@media (min-width: 411px) and (min-height: 311.1875px){
+  div#contentWrapper{
+  width: 411px;
+  }
   iframe.youtube, a#fourzerofour, a#fourzerofour:visited{
   width: 411px;
   height: 231.1875px;
   line-height: 231.1875px;
+  }
+  div#topNav, div#bottomNav{
+  width: 411px;
   }
 }/* END 411PX *****************************************************************/
 
 
 
 /* 414PX **********************************************************************/
-@media (min-width: 414px) and (min-height: 232.875px){
+@media (min-width: 414px) and (min-height: 312.875px){
+  div#contentWrapper{
+  width: 414px;
+  }
   iframe.youtube, a#fourzerofour, a#fourzerofour:visited{
   width: 414px;
   height: 232.875px;
   line-height: 232.875px;
+  }
+  div#topNav, div#bottomNav{
+  width: 414px;
   }
 }/* END 414PX *****************************************************************/

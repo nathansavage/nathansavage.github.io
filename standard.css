@@ -1,4 +1,4 @@
-/* LAST UPDATED 20210522A */
+/* LAST UPDATED 20210523A */
 
 
 
@@ -61,7 +61,7 @@ height: auto;
 margin: 0 auto;
 border: none;
 /*offset-x | offset-y | blur-radius | spread-radius | color*/
-box-shadow: 12px 12px 12px 2px rgba(0, 0, 0, 0.5);
+box-shadow: 0px 8px 20px 4px rgb(0 0 0 / 55%);
 }
 div#topNav, div#bottomNav, iframe.youtube, a#fourzerofour, a#fourzerofour:visited{
 background-color: rgb(0,0,0);
@@ -104,6 +104,26 @@ width: 30px;
 height: 30px;
 margin-top: 5px;
 margin-bottom: 5px;
+}
+div#pWrapper{
+background-color: rgb(255,255,255);
+padding: 12px;
+}
+div#pWrapper p {
+color: rgb(0,0,0);
+text-indent: 0.25in;
+font-size: 14px;
+line-height: 20px;
+margin-bottom: 0.05in;
+}
+div#pWrapper p:first-of-type {
+text-indent: 0;
+}
+div#pWrapper p:first-of-type:first-letter {
+font-size: 28px;
+}
+div#pWrapper p:last-of-type {
+margin-bottom: 0;
 }
 /* END GENERAL ****************************************************************/
 
@@ -172,5 +192,15 @@ margin-bottom: 5px;
   }
   div#topNav, div#bottomNav{
   width: 414px;
+  }
+}/* END 414PX *****************************************************************/
+
+
+
+/* 415+PX **********************************************************************/
+@media (min-width: 415px) and (min-height: 415px){
+  div#contentWrapper{
+  border-radius: 0 0 12px 12px;
+  overflow: hidden;
   }
 }/* END 414PX *****************************************************************/

@@ -1,4 +1,4 @@
-/* LAST UPDATED 20210523A */
+/* LAST UPDATED 20210524B */
 
 
 
@@ -47,11 +47,11 @@ font-weight: bold;
 text-decoration: underline;
 }
 ::-moz-selection{
-background: rgb(255,255,255);
+background: rgb(194 223 255);
 color: rgb(0,0,0);
 }
 ::selection{
-background: rgb(255,255,255);
+background: rgb(194 223 255);
 color: rgb(0,0,0);
 }
 div#contentWrapper{
@@ -202,5 +202,6 @@ margin-bottom: 0;
   div#contentWrapper{
   border-radius: 0 0 12px 12px;
   overflow: hidden;
+  margin-bottom: 40px;
   }
 }/* END 414PX *****************************************************************/

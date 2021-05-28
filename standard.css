@@ -1,4 +1,4 @@
-/* LAST UPDATED 20210527B */
+/* LAST UPDATED 20210528A */
 
 
 
@@ -25,9 +25,16 @@ outline: none;
 
 
 
+/* FONTS **********************************************************************/
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+/* END FONTS ******************************************************************/
+
+
+
 /* GENERAL ********************************************************************/
 body{
-font-family: sans-serif;
+font-family: 'Quicksand', sans-serif;
+font-weight: 400;
 color: rgb(0,0,0);
 background-color: rgb(178,178,193);
 }
@@ -113,7 +120,7 @@ div#textPWrapper p {
 color: rgb(0,0,0);
 text-indent: 0.25in;
 line-height: 20px;
-margin-bottom: 0.05in;
+margin: 0 0 0.05in 0;
 }
 div#textPWrapper p:first-of-type {
 text-indent: 0;
@@ -122,7 +129,7 @@ div#textPWrapper p:first-of-type:first-letter {
 font-size: 28px;
 }
 div#textPWrapper p:last-of-type {
-margin-bottom: 0;
+margin: 0 0 0 0;
 }
 div#listLinkWrapper a, div#listLinkWrapper a:visited {
 color: rgb(0,0,0);
@@ -214,7 +221,7 @@ border-bottom: none;
 
 
 
-/* 415+PX **********************************************************************/
+/* 415+PX *********************************************************************/
 @media (min-width: 415px) and (min-height: 415px){
   div#contentWrapper{
   border-radius: 0 0 12px 12px;

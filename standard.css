@@ -1,4 +1,4 @@
-/* LAST UPDATED 20210529A */
+/* LAST UPDATED 1622641576.4168808 */
 
 
 
@@ -8,17 +8,17 @@ pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small,
 strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label,
 legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas,
 details, figcaption, figure, footer, header, hgroup, menu, nav, section,
-summary, time, mark, audio, video {
+summary, time, mark, audio, video{
 margin: 0; padding: 0; border: 0; outline: 0; font-size: 100%;
 vertical-align: baseline; background: transparent;
 }
-article, aside, figure, footer, header, hgroup, nav, section {
+article, aside, figure, footer, header, hgroup, nav, section{
 display: block;
 }
-html {
+html{
 -webkit-text-size-adjust: 100%;
 }
-a:active, a:hover {
+a:active, a:hover{
 outline: none;
 }
 /* END RESET ******************************************************************/
@@ -54,11 +54,11 @@ font-weight: bold;
 text-decoration: underline;
 }
 ::-moz-selection{
-background: rgb(194 223 255);
+background: rgb(225,225,225);
 color: rgb(0,0,0);
 }
 ::selection{
-background: rgb(194 223 255);
+background: rgb(225,225,225);
 color: rgb(0,0,0);
 }
 div#contentWrapper{
@@ -68,7 +68,7 @@ height: auto;
 margin: 0 auto;
 border: none;
 /*offset-x | offset-y | blur-radius | spread-radius | color*/
-box-shadow: 0px 8px 20px 4px rgb(0 0 0 / 55%);
+box-shadow: 0px 8px 20px 4px rgb(0,0,0,55%);
 }
 div#topNav, div#bottomNav, iframe.youtube, a#fourzerofour, a#fourzerofour:visited{
 background-color: rgb(0,0,0);
@@ -111,43 +111,108 @@ height: 30px;
 margin-top: 5px;
 margin-bottom: 5px;
 }
-div#textPWrapper, div#listLinkWrapper{
+div#textPWrapper{
 background-color: rgb(255,255,255);
 padding: 10px;
 font-size: 14px;
 }
-div#textPWrapper p {
+div#textPWrapper h1{
+padding: 5.5px 0 15.5px 0;
+font-size: 20px;
+text-align: center;
+border-bottom: 1px solid rgb(0,0,0);
+margin-bottom: 10px;
+}
+div#textPWrapper p{
 color: rgb(0,0,0);
 text-indent: 0.25in;
 line-height: 20px;
-margin: 0 0 0.05in 0;
+margin: 0 0 5px 0;
 }
-div#textPWrapper p:first-of-type {
+div#textPWrapper p:first-of-type{
 text-indent: 0;
 }
-div#textPWrapper p:first-of-type:first-letter {
+div#textPWrapper p:first-of-type:first-letter{
 font-size: 28px;
 }
-div#textPWrapper p:last-of-type {
+div#textPWrapper p:last-of-type{
 margin: 0 0 0 0;
 }
-div#listLinkWrapper a, div#listLinkWrapper a:visited {
-color: rgb(0,0,0);
-text-decoration: none;
+div#linkListWrapper{
+background-color: rgb(255,255,255);
+padding: 10px;
+font-size: 14px;
 }
-div#listLinkWrapper a img {
+div#linkListWrapper h1{
+padding: 5.5px 0 15.5px 0;
+font-size: 20px;
+text-align: center;
+border-bottom: 1px solid rgb(0,0,0);
+}
+div#linkListWrapper a, div#linkListWrapper a:visited{
+text-decoration: none;
+color: rgb(0,0,0);
+}
+div#linkListWrapper .listItem{
+overflow: auto;
+width: 100%;
+border-bottom: 1px solid rgb(0,0,0);
+}
+div#linkListWrapper .firstItem{
+
+}
+div#linkListWrapper .lastItem{
+border-bottom: none;
+margin-bottom: -10px;
+}
+div#linkListWrapper .newerOlder{
+display: block;
+float: left;
+width: auto;
+}
+div#linkListWrapper .newerOlder img{
+display: block;
 float: left;
 width: 20px;
 height: 20px;
 margin: 10px 10px 10px 0;
 }
-div#listLinkWrapper a p {
+div#linkListWrapper .newerOlder .newerOlderText{
+display: block;
+float: left;
+width: auto;
+height: 40px;
 line-height: 40px;
-border-bottom: 1px solid rgb(0,0,0);
-margin: 0;
 }
-div#listLinkWrapper a p#lastP {
-border-bottom: none;
+div#linkListWrapper .posting{
+width: 100%;
+}
+div#linkListWrapper .posting .leftDiv{
+display: block;
+float: left;
+width: auto;
+}
+div#linkListWrapper .posting .leftDivText{
+display: block;
+float: left;
+text-align: right;
+width: 42.22px;
+line-height: 40px;
+margin: 0 10px 0 30px;
+}
+div#linkListWrapper .posting .leftDiv img{
+display: block;
+float: left;
+width: 20px;
+height: 20px;
+margin: 10px 10px 10px 0;
+}
+div#linkListWrapper .posting .rightDiv .rightDivText{
+display: block;
+float: right;
+width: 187.78px;
+line-height: 20px;
+margin: 10px 0 10px 0;
 }
 /* END GENERAL ****************************************************************/
 
@@ -166,6 +231,9 @@ border-bottom: none;
   div#topNav, div#bottomNav{
   width: 360px;
   }
+  div#linkListWrapper .posting .rightDiv .rightDivText{
+  width: 227.78px;
+  }
 }/* END 360PX *****************************************************************/
 
 
@@ -182,6 +250,9 @@ border-bottom: none;
   }
   div#topNav, div#bottomNav{
   width: 375px;
+  }
+  div#linkListWrapper .posting .rightDiv .rightDivText{
+  width: 242.78px;
   }
 }/* END 375PX *****************************************************************/
 
@@ -200,6 +271,9 @@ border-bottom: none;
   div#topNav, div#bottomNav{
   width: 411px;
   }
+  div#linkListWrapper .posting .rightDiv .rightDivText{
+  width: 278.78px;
+  }
 }/* END 411PX *****************************************************************/
 
 
@@ -216,6 +290,9 @@ border-bottom: none;
   }
   div#topNav, div#bottomNav{
   width: 414px;
+  }
+  div#linkListWrapper .posting .rightDiv .rightDivText{
+  width: 281.78px;
   }
 }/* END 414PX *****************************************************************/
 

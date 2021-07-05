@@ -1,4 +1,4 @@
-/* LAST UPDATED 1625461184.4451075 */
+/* LAST UPDATED 1625494604.9136481 */
 
 
 
@@ -183,10 +183,12 @@ display: none;
 div#contentWrapper{
 width: 320px;
 height: auto;
-margin: 0 auto;
+margin: 0 auto 40px auto;
 border: none;
+border-radius: 0 0 6px 6px;
 /*offset-x | offset-y | blur-radius | spread-radius | color*/
 box-shadow: 0px 8px 20px 4px rgb(0,0,0,55%);
+overflow: hidden;
 }
 div#topNav, div#bottomNav, iframe.youtube, a#fourzerofour, a#fourzerofour:visited{
 background-color: rgb(0,0,0);
@@ -637,17 +639,6 @@ line-height: 40px;
   width: 281.77px;
   }
 }/* END 414PX */
-
-
-
-/* 415+PX ***********************************************************************************************************************************/
-@media (min-width: 415px) and (min-height: 415px){
-  div#contentWrapper{
-  border-radius: 0 0 6px 6px;
-  overflow: hidden;
-  margin-bottom: 40px;
-  }
-}/* END 415+PX */
 
 
 

@@ -1,8 +1,8 @@
-/* LAST UPDATED 1622641576.4168808 */
+/* LAST UPDATED 1625460208.3233447 */
 
 
 
-/* RESET **********************************************************************/
+/* RESET ************************************************************************************************************************************/
 html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small,
 strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label,
@@ -21,17 +21,156 @@ html{
 a:active, a:hover{
 outline: none;
 }
-/* END RESET ******************************************************************/
+/* END RESET */
 
 
 
-/* FONTS **********************************************************************/
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
-/* END FONTS ******************************************************************/
+/* FONTS ************************************************************************************************************************************/
+/* vietnamese */
+@font-face{
+font-family: 'Quicksand';
+font-style: normal;
+font-weight: 300;
+font-display: swap;
+src: url(https://fonts.gstatic.com/s/quicksand/v22/6xKtdSZaM9iE8KbpRA_hJFQNcOM.woff2) format('woff2');
+unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face{
+font-family: 'Quicksand';
+font-style: normal;
+font-weight: 300;
+font-display: swap;
+src: url(https://fonts.gstatic.com/s/quicksand/v22/6xKtdSZaM9iE8KbpRA_hJVQNcOM.woff2) format('woff2');
+unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face{
+font-family: 'Quicksand';
+font-style: normal;
+font-weight: 300;
+font-display: swap;
+src: url(https://fonts.gstatic.com/s/quicksand/v22/6xKtdSZaM9iE8KbpRA_hK1QN.woff2) format('woff2');
+unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193,
+U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* vietnamese */
+@font-face{
+font-family: 'Quicksand';
+font-style: normal;
+font-weight: 400;
+font-display: swap;
+src: url(https://fonts.gstatic.com/s/quicksand/v22/6xKtdSZaM9iE8KbpRA_hJFQNcOM.woff2) format('woff2');
+unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face{
+font-family: 'Quicksand';
+font-style: normal;
+font-weight: 400;
+font-display: swap;
+src: url(https://fonts.gstatic.com/s/quicksand/v22/6xKtdSZaM9iE8KbpRA_hJVQNcOM.woff2) format('woff2');
+unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face{
+font-family: 'Quicksand';
+font-style: normal;
+font-weight: 400;
+font-display: swap;
+src: url(https://fonts.gstatic.com/s/quicksand/v22/6xKtdSZaM9iE8KbpRA_hK1QN.woff2) format('woff2');
+unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193,
+U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* vietnamese */
+@font-face{
+font-family: 'Quicksand';
+font-style: normal;
+font-weight: 500;
+font-display: swap;
+src: url(https://fonts.gstatic.com/s/quicksand/v22/6xKtdSZaM9iE8KbpRA_hJFQNcOM.woff2) format('woff2');
+unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face{
+font-family: 'Quicksand';
+font-style: normal;
+font-weight: 500;
+font-display: swap;
+src: url(https://fonts.gstatic.com/s/quicksand/v22/6xKtdSZaM9iE8KbpRA_hJVQNcOM.woff2) format('woff2');
+unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face{
+font-family: 'Quicksand';
+font-style: normal;
+font-weight: 500;
+font-display: swap;
+src: url(https://fonts.gstatic.com/s/quicksand/v22/6xKtdSZaM9iE8KbpRA_hK1QN.woff2) format('woff2');
+unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193,
+U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* vietnamese */
+@font-face{
+font-family: 'Quicksand';
+font-style: normal;
+font-weight: 600;
+font-display: swap;
+src: url(https://fonts.gstatic.com/s/quicksand/v22/6xKtdSZaM9iE8KbpRA_hJFQNcOM.woff2) format('woff2');
+unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face{
+font-family: 'Quicksand';
+font-style: normal;
+font-weight: 600;
+font-display: swap;
+src: url(https://fonts.gstatic.com/s/quicksand/v22/6xKtdSZaM9iE8KbpRA_hJVQNcOM.woff2) format('woff2');
+unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face{
+font-family: 'Quicksand';
+font-style: normal;
+font-weight: 600;
+font-display: swap;
+src: url(https://fonts.gstatic.com/s/quicksand/v22/6xKtdSZaM9iE8KbpRA_hK1QN.woff2) format('woff2');
+unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193,
+U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* vietnamese */
+@font-face{
+font-family: 'Quicksand';
+font-style: normal;
+font-weight: 700;
+font-display: swap;
+src: url(https://fonts.gstatic.com/s/quicksand/v22/6xKtdSZaM9iE8KbpRA_hJFQNcOM.woff2) format('woff2');
+unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face{
+font-family: 'Quicksand';
+font-style: normal;
+font-weight: 700;
+font-display: swap;
+src: url(https://fonts.gstatic.com/s/quicksand/v22/6xKtdSZaM9iE8KbpRA_hJVQNcOM.woff2) format('woff2');
+unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face{
+font-family: 'Quicksand';
+font-style: normal;
+font-weight: 700;
+font-display: swap;
+src: url(https://fonts.gstatic.com/s/quicksand/v22/6xKtdSZaM9iE8KbpRA_hK1QN.woff2) format('woff2');
+unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193,
+U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* END FONTS */
 
 
 
-/* GENERAL ********************************************************************/
+/* GENERAL **********************************************************************************************************************************/
 body{
 font-family: 'Quicksand', sans-serif;
 font-weight: 500;
@@ -41,28 +180,7 @@ background-color: rgb(178,178,193);
 .hidden{
 display: none;
 }
-.centered{
-text-align: center;
-}
-.rightAligned{
-text-align: right;
-}
-.bold{
-font-weight: bold;
-}
-.underlined{
-text-decoration: underline;
-}
-::-moz-selection{
-background: rgb(225,225,225);
-color: rgb(0,0,0);
-}
-::selection{
-background: rgb(225,225,225);
-color: rgb(0,0,0);
-}
 div#contentWrapper{
-display: block;
 width: 320px;
 height: auto;
 margin: 0 auto;
@@ -86,57 +204,143 @@ color: rgb(255,255,255);
 div#topNav, div#bottomNav{
 height: 40px;
 }
-a.left, a.right, a.left:visited, a.right:visited{
+div#bottomNav{
+position: relative;
+}
+div#topNav a.left, div#bottomNav a.left, div#topNav a.right, div#bottomNav a.right{
 display: block;
+float: left;
 width: 40px;
 height: 40px;
-float: left;
-line-height: 40px;
-text-align: center;
-text-decoration: none;
-color: rgb(255,255,255);
 }
-a.right{
+div#topNav a.right, div#bottomNav a.right{
 float: right;
 }
-a.left img, a.right img{
+div.left, div.right, div.older, div.newer{
+float: left;
+width: 40px;
+height: 40px;
+}
+div.right{
+float: right;
+}
+input.phantom{
+opacity: 0;
+width: 0;
+height: 0;
+float: left;
+margin: 0;
+padding: 0;
+border: 0;
+}
+a.gridMenuButtonActive{
+display: none;
+}
+input[type=checkbox]#gridMenuButton:checked ~ a.gridMenuButton{
+display: none;
+}
+input[type=checkbox]#gridMenuButton:checked ~ div.gridMenu,
+input[type=checkbox]#gridMenuButton:checked ~ a.gridMenuButtonActive{
+display: block;
+float: left;
+}
+label.gridMenuButton{
+width: 40px;
+height: 40px;
+line-height: 40px;
+display: block;
+float: left;
+margin: 0 0 0 -40px;
+padding: 0;
+cursor: pointer;
+}
+input[type=checkbox]#gridMenuButton ~ div.gridMenu{
+display: none;
+position: relative;
+top: -40px;
+left: -40px;
+background-color: rgb(0,0,0);
+border-radius: 0 6px 0 0;
+overflow: hidden;
+}
+input[type=checkbox]#gridMenuButton:checked ~ a.musicVideoPatronDonationOptions{
+position: relative;
+left: -200px;
+}
+input[type=checkbox]#gridMenuButton:checked ~ a.videoPatronDonationOptions{
+position: relative;
+left: -40px;
+}
+div#bottomNav a.copyright{
+margin: 0 10px 0 0;
+position: absolute;
+right: 0;
+text-align: right;
+}
+div#bottomNav a.copyright, div#bottomNav div.copyright{
+width: auto;
+font-size: 12px;
+line-height: 40px;
+color: rgb(77,77,77);
+}
+div.left img, div.right img{
+display: block;
 width: 20px;
 height: 20px;
-margin-top: 10px;
-margin-bottom: 10px;
+margin: 10px;
 }
-a.older img, a.newer img{
+div.older img, div.newer img{
+display: block;
 width: 30px;
 height: 30px;
-margin-top: 5px;
-margin-bottom: 5px;
+margin: 5px;
 }
-div#textPWrapper{
+div.apple img{
+width: 21px;
+height: 21px;
+margin: 9px;
+}
+div.amazon img{
+width: 18px;
+height: 18px;
+margin: 12px;
+}
+div#textWrapper{
 background-color: rgb(255,255,255);
 padding: 10px;
 font-size: 14px;
 }
-div#textPWrapper h1{
+div#textWrapper a, div#textWrapper a:visited{
+text-decoration: underline;
+color: rgb(0,0,0);
+}
+div#textWrapper h1{
 padding: 5.5px 0 15.5px 0;
 font-size: 20px;
 text-align: center;
 border-bottom: 1px solid rgb(0,0,0);
 margin-bottom: 10px;
 }
-div#textPWrapper p{
+div#textWrapper p{
 color: rgb(0,0,0);
 text-indent: 0.25in;
 line-height: 20px;
 margin: 0 0 5px 0;
 }
-div#textPWrapper p:first-of-type{
+div#textWrapper p:first-of-type{
 text-indent: 0;
 }
-div#textPWrapper p:first-of-type:first-letter{
+div#textWrapper p:first-of-type:first-letter{
 font-size: 28px;
 }
-div#textPWrapper p:last-of-type{
+div#textWrapper p:last-of-type{
 margin: 0 0 0 0;
+}
+div#textWrapper .noteLink{
+text-decoration: none;
+}
+div#textWrapper p.noIndent{
+text-indent: 0;
 }
 div#linkListWrapper{
 background-color: rgb(255,255,255);
@@ -157,9 +361,6 @@ div#linkListWrapper .listItem{
 overflow: auto;
 width: 100%;
 border-bottom: 1px solid rgb(0,0,0);
-}
-div#linkListWrapper .firstItem{
-
 }
 div#linkListWrapper .lastItem{
 border-bottom: none;
@@ -184,6 +385,9 @@ width: auto;
 height: 40px;
 line-height: 40px;
 }
+div#linkListWrapper .newerOlder .newerOlderText span.newerOlderLight{
+color: rgb(178,178,178);
+}
 div#linkListWrapper .posting{
 width: 100%;
 }
@@ -196,7 +400,7 @@ div#linkListWrapper .posting .leftDivText{
 display: block;
 float: left;
 text-align: right;
-width: 42.22px;
+width: 42.23px;
 line-height: 40px;
 margin: 0 10px 0 30px;
 }
@@ -210,15 +414,153 @@ margin: 10px 10px 10px 0;
 div#linkListWrapper .posting .rightDiv .rightDivText{
 display: block;
 float: right;
-width: 187.78px;
+width: 187.77px;
 line-height: 20px;
 margin: 10px 0 10px 0;
 }
-/* END GENERAL ****************************************************************/
+div#linkListWrapper .posting .rightDiv .postingDate{
+font-size: 12px;
+color: rgb(178,178,178);
+}
+div#contactWrapper{
+background-color: rgb(255,255,255);
+padding: 10px;
+font-size: 14px;
+}
+div#contactWrapper{
+background-color: rgb(255,255,255);
+padding: 10px;
+font-size: 14px;
+}
+div#contactWrapper h1{
+padding: 5.5px 0 15.5px 0;
+font-size: 20px;
+text-align: center;
+border-bottom: 1px solid rgb(0,0,0);
+}
+div#contactWrapper a, div#contactWrapper a:visited{
+text-decoration: none;
+color: rgb(0,0,0);
+}
+div#contactWrapper .listItem{
+overflow: auto;
+width: 100%;
+border-bottom: 1px solid rgb(0,0,0);
+}
+div#contactWrapper .lastItem{
+border-bottom: none;
+margin-bottom: -10px;
+}
+div#contactWrapper .contactOption{
+display: block;
+float: left;
+width: auto;
+}
+div#contactWrapper .contactOption img{
+display: block;
+float: left;
+width: 20px;
+height: 20px;
+margin: 10px 10px 10px 0;
+}
+div#contactWrapper .google img{
+width: 18px;
+height: 18px;
+margin: 12px 12px 12px 0;
+}
+div#contactWrapper .instagram img{
+width: 19px;
+height: 19px;
+margin: 11px 11px 11px 0;
+}
+div#contactWrapper .contactOption .contactOptionText{
+display: block;
+float: left;
+width: auto;
+height: 40px;
+line-height: 40px;
+}
+div#aboutWrapper{
+background-color: rgb(255,255,255);
+padding: 10px;
+font-size: 14px;
+}
+div#aboutWrapper h1{
+padding: 5.5px 0 15.5px 0;
+font-size: 20px;
+text-align: center;
+border-bottom: 1px solid rgb(0,0,0);
+margin-bottom: 10px;
+}
+div#aboutWrapper p{
+color: rgb(0,0,0);
+text-indent: 0.25in;
+line-height: 20px;
+margin: 0 0 5px 0;
+}
+div#aboutWrapper p:first-of-type{
+text-indent: 0;
+}
+div#aboutWrapper p:last-of-type{
+margin: 0 0 0 0;
+}
+div#aboutWrapper p.lastUpdated{
+text-indent: 0in;
+font-size: 12px;
+color: rgb(178,178,178);
+}
+div#aboutWrapper a, div#aboutWrapper a:visited{
+text-decoration: underline;
+color: rgb(0,0,0);
+}
+div#patronDonationWrapper{
+background-color: rgb(255,255,255);
+padding: 10px;
+font-size: 14px;
+}
+div#patronDonationWrapper h1{
+padding: 5.5px 0 15.5px 0;
+font-size: 20px;
+text-align: center;
+border-bottom: 1px solid rgb(0,0,0);
+}
+div#patronDonationWrapper a, div#patronDonationWrapper a:visited{
+text-decoration: none;
+color: rgb(0,0,0);
+}
+div#patronDonationWrapper .listItem{
+overflow: auto;
+width: 100%;
+border-bottom: 1px solid rgb(0,0,0);
+}
+div#patronDonationWrapper .lastItem{
+border-bottom: none;
+margin-bottom: -10px;
+}
+div#patronDonationWrapper .patronDonationOption{
+display: block;
+float: left;
+width: auto;
+}
+div#patronDonationWrapper .patronDonationOption img{
+display: block;
+float: left;
+width: 20px;
+height: 20px;
+margin: 10px 10px 10px 0;
+}
+div#patronDonationWrapper .patronDonationOption .patronDonationOptionText{
+display: block;
+float: left;
+width: auto;
+height: 40px;
+line-height: 40px;
+}
+/* END GENERAL */
 
 
 
-/* 360PX **********************************************************************/
+/* 360PX ************************************************************************************************************************************/
 @media (min-width: 360px) and (min-height: 282.5px){
   div#contentWrapper{
   width: 360px;
@@ -232,13 +574,13 @@ margin: 10px 0 10px 0;
   width: 360px;
   }
   div#linkListWrapper .posting .rightDiv .rightDivText{
-  width: 227.78px;
+  width: 227.77px;
   }
-}/* END 360PX *****************************************************************/
+}/* END 360PX */
 
 
 
-/* 375PX **********************************************************************/
+/* 375PX ************************************************************************************************************************************/
 @media (min-width: 375px) and (min-height: 290.9375px){
   div#contentWrapper{
   width: 375px;
@@ -252,13 +594,13 @@ margin: 10px 0 10px 0;
   width: 375px;
   }
   div#linkListWrapper .posting .rightDiv .rightDivText{
-  width: 242.78px;
+  width: 242.77px;
   }
-}/* END 375PX *****************************************************************/
+}/* END 375PX */
 
 
 
-/* 411PX **********************************************************************/
+/* 411PX ************************************************************************************************************************************/
 @media (min-width: 411px) and (min-height: 311.1875px){
   div#contentWrapper{
   width: 411px;
@@ -272,13 +614,13 @@ margin: 10px 0 10px 0;
   width: 411px;
   }
   div#linkListWrapper .posting .rightDiv .rightDivText{
-  width: 278.78px;
+  width: 278.77px;
   }
-}/* END 411PX *****************************************************************/
+}/* END 411PX */
 
 
 
-/* 414PX **********************************************************************/
+/* 414PX ************************************************************************************************************************************/
 @media (min-width: 414px) and (min-height: 312.875px){
   div#contentWrapper{
   width: 414px;
@@ -292,17 +634,123 @@ margin: 10px 0 10px 0;
   width: 414px;
   }
   div#linkListWrapper .posting .rightDiv .rightDivText{
-  width: 281.78px;
+  width: 281.77px;
   }
-}/* END 414PX *****************************************************************/
+}/* END 414PX */
 
 
 
-/* 415+PX *********************************************************************/
+/* 415+PX ***********************************************************************************************************************************/
 @media (min-width: 415px) and (min-height: 415px){
   div#contentWrapper{
-  border-radius: 0 0 12px 12px;
+  border-radius: 0 0 6px 6px;
   overflow: hidden;
   margin-bottom: 40px;
   }
-}/* END 415+PX ****************************************************************/
+}/* END 415+PX */
+
+
+
+/* 600PX ************************************************************************************************************************************/
+@media (min-width: 600px) and (min-height: 417.5px){
+  div#contentWrapper{
+  width: 600px;
+  }
+  iframe.youtube, a#fourzerofour, a#fourzerofour:visited{
+  width: 600px;
+  height: 337.5px;
+  font-size: 18px;
+  line-height: 337.5px;
+  }
+  div#topNav, div#bottomNav{
+  width: 600px;
+  }
+  div#textWrapper{
+  font-size: 18px;
+  }
+  div#textWrapper h1{
+  font-size: 29px;
+  }
+  div#textWrapper p{
+  line-height: 26px;
+  }
+  div#textWrapper p:first-of-type:first-letter{
+  font-size: 36px;
+  }
+  div#linkListWrapper{
+  font-size: 18px;
+  }
+  div#linkListWrapper h1{
+  font-size: 29px;
+  }
+  div#linkListWrapper .posting .leftDivText{
+  width: 54.3px;
+  }
+  div#linkListWrapper .posting .rightDiv .rightDivText{
+  width: 455.7px;
+  line-height: 26px;
+  }
+  div#contactWrapper{
+  font-size: 18px;
+  }
+  div#contactWrapper h1{
+  font-size: 29px;
+  }
+  div#aboutWrapper{
+  font-size: 18px;
+  }
+  div#aboutWrapper h1{
+  font-size: 29px;
+  }
+  div#aboutWrapper p{
+  line-height: 26px;
+  }
+  div#patronDonationWrapper{
+  font-size: 18px;
+  }
+  div#patronDonationWrapper h1{
+  font-size: 29px;
+  }
+}/* END 600PX */
+
+
+
+/* 768PX ************************************************************************************************************************************/
+@media (min-width: 768px) and (min-height: 512px){
+  div#contentWrapper{
+  width: 768px;
+  }
+  iframe.youtube, a#fourzerofour, a#fourzerofour:visited{
+  width: 768px;
+  height: 432px;
+  line-height: 432px;
+  }
+  div#topNav, div#bottomNav{
+  width: 768px;
+  }
+  div#linkListWrapper .posting .rightDiv .rightDivText{
+  width: 623.7px;
+  }
+}/* END 768PX */
+
+
+
+/* 800PX ************************************************************************************************************************************/
+@media (min-width: 800px) and (min-height: 530px){
+  div#contentWrapper{
+  width: 800px;
+  }
+  iframe.youtube, a#fourzerofour, a#fourzerofour:visited{
+  width: 800px;
+  height: 450px;
+  line-height: 450px;
+  }
+  div#topNav, div#bottomNav{
+  width: 800px;
+  }
+  div#linkListWrapper .posting .rightDiv .rightDivText{
+  width: 655.7px;
+  }
+}/* END 800PX */
+
+

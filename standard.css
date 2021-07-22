@@ -1,4 +1,4 @@
-/* LAST UPDATED 1626993748.5688772 */
+/* LAST UPDATED 1626995713.9529204 */
 
 
 
@@ -489,6 +489,11 @@ div#contactWrapper .instagram img{
 width: 19px;
 height: 19px;
 margin: 11px 11px 11px 0;
+}
+div#contactWrapper .ycombinator img{
+width: 18px;
+height: 18px;
+margin: 12px 12px 12px 0;
 }
 div#contactWrapper .contactOption .contactOptionText{
 display: block;

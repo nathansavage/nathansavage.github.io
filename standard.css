@@ -1,4 +1,4 @@
-/* LAST UPDATED 1626999442.875034 */
+/* LAST UPDATED 1627056955.11602 */
 
 
 
@@ -292,10 +292,14 @@ height: 20px;
 margin: 10px;
 }
 div.older img, div.newer img{
-display: block;
 width: 30px;
 height: 30px;
 margin: 5px;
+}
+div.donations img{
+width: 18px;
+height: 18px;
+margin: 11px;
 }
 div.spotify img{
 width: 22px;

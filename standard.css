@@ -1,4 +1,4 @@
-/* LAST UPDATED 1626996957.1007087 */
+/* LAST UPDATED 1626999442.875034 */
 
 
 
@@ -483,17 +483,17 @@ margin: 10px 10px 10px 0;
 div#contactWrapper .google img{
 width: 18px;
 height: 18px;
-margin: 12px 12px 12px 0;
+margin: 11px 11px 11px 0;
+}
+div#contactWrapper .ycombinator img{
+width: 19px;
+height: 19px;
+margin: 10.5px 10.5px 10.5px 0;
 }
 div#contactWrapper .instagram img{
 width: 19px;
 height: 19px;
-margin: 11px 11px 11px 0;
-}
-div#contactWrapper .ycombinator img{
-width: 18px;
-height: 18px;
-margin: 12px 12px 12px 0;
+margin: 10.5px 10.5px 10.5px 0;
 }
 div#contactWrapper .contactOption .contactOptionText{
 display: block;

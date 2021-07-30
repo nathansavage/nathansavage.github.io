@@ -266,12 +266,12 @@ border-radius: 0;
 overflow: hidden;
 }
 input[type=checkbox]#gridMenuButton:checked ~ a.musicVideoPatronDonationOptions{
-position: relative;
-left: -240px;
+position: absolute;
+left: 40px;
 }
 input[type=checkbox]#gridMenuButton:checked ~ a.videoPatronDonationOptions{
-position: relative;
-left: -40px;
+position: absolute;
+left: 40px;
 }
 div#bottomNav a.copyright{
 margin: 0 10px 0 0;

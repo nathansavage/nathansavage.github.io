@@ -1,4 +1,4 @@
-/* LAST UPDATED 1629402381.8555558 */
+/* LAST UPDATED 1629558250.1767166 */
 
 
 
@@ -175,7 +175,7 @@ body{
 font-family: 'Quicksand', sans-serif;
 font-weight: 500;
 color: rgb(0,0,0);
-background-color: rgb(178,178,193);
+background-color: rgb(255,255,255);
 }
 .hidden{
 display: none;
@@ -191,15 +191,11 @@ background-color: transparent;
 div#contentWrapper{
 width: 320px;
 height: auto;
-margin: 0 auto 40px auto;
+margin: 0 auto 0 auto;
 border: none;
-border-radius: 0 0 6px 6px;
-/*offset-x | offset-y | blur-radius | spread-radius | color*/
-box-shadow: 0px 8px 20px 4px rgb(0,0,0,55%);
 overflow: hidden;
 }
 div#topNav, div#bottomNav, iframe.youtube, a#fourzerofour, a#fourzerofour:visited{
-background-color: rgb(0,0,0);
 display: block;
 width: 320px;
 height: 180px;
@@ -209,10 +205,15 @@ line-height: 180px;
 text-align: center;
 font-size: 14px;
 text-decoration: none;
-color: rgb(255,255,255);
+color: rgb(0,0,0);
+background-color: rgba(255,255,255,0);
+}
+a#fourzerofour{
+border-top: 1px solid rgb(0,0,0);
+border-bottom: 1px solid rgb(0,0,0);
 }
 a#fourzerofour:focus, a#fourzerofour:visited:focus{
-outline: 1px solid rgb(222,222,222);
+outline: 1px solid rgb(0,0,0);
 outline-offset: -4px;
 }
 div#topNav, div#bottomNav{
@@ -231,7 +232,7 @@ div#topNav a.right, div#bottomNav a.right{
 float: right;
 }
 div#topNav a.left:focus, div#bottomNav a.left:focus, div#topNav a.right:focus, div#bottomNav a.right:focus{
-outline: 1px solid rgb(222,222,222);
+outline: 1px solid rgb(0,0,0);
 outline-offset: -2px;
 }
 div.left, div.right, div.older, div.newer{
@@ -264,7 +265,7 @@ float: left;
 }
 input[type=checkbox]#gridMenuButton:focus ~ a.gridMenuButton div,
 input[type=checkbox]#gridMenuButton:checked:focus ~ a.gridMenuButtonActive div{
-outline: 1px solid rgb(222,222,222);
+outline: 1px solid rgb(0,0,0);
 outline-offset: -2px;
 }
 div.gridMenuButton{
@@ -291,7 +292,7 @@ display: none;
 position: absolute;
 top: -40px;
 left: 0px;
-background-color: rgb(0,0,0);
+background-color: rgb(255,255,255);
 border-radius: 0;
 overflow: hidden;
 }
@@ -319,7 +320,7 @@ div#bottomNav a.copyright, div#bottomNav div.copyright{
 width: auto;
 font-size: 12px;
 line-height: 40px;
-color: rgb(77,77,77);
+color: rgb(128,128,128);
 }
 div.left img, div.right img{
 display: block;
@@ -363,9 +364,11 @@ height: 23px;
 margin: 8.5px;
 }
 div#textWrapper{
-background-color: rgb(255,255,255);
 padding: 10px;
 font-size: 14px;
+background-color: rgb(255,255,255);
+border-top: 1px solid rgb(0,0,0);
+border-bottom: 1px solid rgb(0,0,0);
 }
 div#textWrapper a, div#textWrapper a:visited{
 text-decoration: underline;
@@ -376,7 +379,7 @@ background-color: rgb(222,222,222);
 outline: none;
 }
 div#textWrapper h1{
-padding: 5.5px 0 15.5px 0;
+padding: 5.5px 0 16.5px 0;
 font-size: 20px;
 text-align: center;
 border-bottom: 1px solid rgb(0,0,0);
@@ -412,6 +415,8 @@ div#linkListWrapper{
 background-color: rgb(255,255,255);
 padding: 10px;
 font-size: 14px;
+border-top: 1px solid rgb(0,0,0);
+border-bottom: 1px solid rgb(0,0,0);
 }
 div#linkListWrapper h1{
 padding: 5.5px 0 15.5px 0;
@@ -499,6 +504,8 @@ div#contactWrapper{
 background-color: rgb(255,255,255);
 padding: 10px;
 font-size: 14px;
+border-top: 1px solid rgb(0,0,0);
+border-bottom: 1px solid rgb(0,0,0);
 }
 div#contactWrapper a:focus, div#contactWrapper a:visited:focus{
 outline: none;
@@ -569,6 +576,8 @@ div#aboutWrapper{
 background-color: rgb(255,255,255);
 padding: 10px;
 font-size: 14px;
+border-top: 1px solid rgb(0,0,0);
+border-bottom: 1px solid rgb(0,0,0);
 }
 div#aboutWrapper a:focus, div#aboutWrapper a:visited:focus{
 background-color: rgb(222,222,222);
@@ -606,6 +615,8 @@ div#patronDonationWrapper{
 background-color: rgb(255,255,255);
 padding: 10px;
 font-size: 14px;
+border-top: 1px solid rgb(0,0,0);
+border-bottom: 1px solid rgb(0,0,0);
 }
 div#patronDonationWrapper h1{
 padding: 5.5px 0 15.5px 0;

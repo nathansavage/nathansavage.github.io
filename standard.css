@@ -1,4 +1,4 @@
-/* LAST UPDATED 1629558250.1767166 */
+/* LAST UPDATED 1629652615.4935973 */
 
 
 
@@ -320,7 +320,7 @@ div#bottomNav a.copyright, div#bottomNav div.copyright{
 width: auto;
 font-size: 12px;
 line-height: 40px;
-color: rgb(128,128,128);
+color: rgb(222,222,222);
 }
 div.left img, div.right img{
 display: block;
@@ -464,7 +464,7 @@ height: 40px;
 line-height: 40px;
 }
 div#linkListWrapper .newerOlder .newerOlderText span.newerOlderLight{
-color: rgb(178,178,178);
+color: rgb(222,222,222);
 }
 div#linkListWrapper .posting{
 width: 100%;
@@ -498,7 +498,7 @@ margin: 10px 0 10px 0;
 }
 div#linkListWrapper .posting .rightDiv .postingDate{
 font-size: 12px;
-color: rgb(178,178,178);
+color: rgb(128,128,128);
 }
 div#contactWrapper{
 background-color: rgb(255,255,255);
@@ -605,7 +605,7 @@ margin: 0 0 0 0;
 div#aboutWrapper p.lastUpdated{
 text-indent: 0in;
 font-size: 12px;
-color: rgb(178,178,178);
+color: rgb(128,128,128);
 }
 div#aboutWrapper a, div#aboutWrapper a:visited{
 text-decoration: underline;

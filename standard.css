@@ -1,4 +1,4 @@
-/* LAST UPDATED 1629652615.4935973 */
+/* LAST UPDATED 1630879147.9467351 */
 
 
 
@@ -180,11 +180,11 @@ background-color: rgb(255,255,255);
 .hidden{
 display: none;
 }
-del {
+del{
 text-decoration: line-through;
 background-color: transparent;
 }
-ins {
+ins{
 text-decoration: none;
 background-color: transparent;
 }
@@ -405,6 +405,12 @@ text-decoration: none;
 }
 div#textWrapper p.noIndent{
 text-indent: 0;
+}
+div#textWrapper p.break{
+text-indent: 0;
+text-align: center;
+color: rgb(222,222,222);
+margin-bottom: 7px;
 }
 div#textWrapper p.firstNote{
 margin-top: 10px;

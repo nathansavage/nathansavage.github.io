@@ -918,6 +918,7 @@ line-height: 40px;
   }
   div#textWrapper p{
   line-height: 26px;
+  text-indent: 0.5in;
   }
   div#textWrapper p:first-of-type:first-letter{
   font-size: 36px;

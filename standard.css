@@ -574,6 +574,11 @@ width: 19px;
 height: 19px;
 margin: 10.5px 10.5px 10.5px 0;
 }
+div#contactWrapper .tiktok img{
+width: 19px;
+height: 19px;
+margin: 10.5px 10.5px 10.5px 0;
+}
 div#contactWrapper .contactOption .contactOptionText{
 display: block;
 float: left;

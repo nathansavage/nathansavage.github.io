@@ -1,4 +1,4 @@
-/* LAST UPDATED 1630879147.9467351 */
+/* LAST UPDATED 1633134976.600079 */
 
 
 
@@ -388,8 +388,8 @@ margin-bottom: 10px;
 div#textWrapper p{
 color: rgb(0,0,0);
 text-indent: 0.25in;
-line-height: 20px;
-margin: 0 0 5px 0;
+line-height: 23px;
+margin: 0 0 0 0;
 }
 div#textWrapper p:first-of-type{
 text-indent: 0;
@@ -602,8 +602,8 @@ margin-bottom: 10px;
 div#aboutWrapper p{
 color: rgb(0,0,0);
 text-indent: 0.25in;
-line-height: 20px;
-margin: 0 0 5px 0;
+line-height: 23px;
+margin: 0 0 0 0;
 }
 div#aboutWrapper p:first-of-type{
 text-indent: 0;
@@ -917,7 +917,7 @@ line-height: 40px;
   font-size: 29px;
   }
   div#textWrapper p{
-  line-height: 26px;
+  line-height: 30px;
   text-indent: 0.5in;
   }
   div#textWrapper p:first-of-type:first-letter{
@@ -935,6 +935,7 @@ line-height: 40px;
   div#linkListWrapper .posting .rightDiv .rightDivText{
   width: 455.7px;
   line-height: 26px;
+  margin: 7.5px 0 7.5px 0;
   }
   div#contactWrapper{
   font-size: 18px;
@@ -949,7 +950,7 @@ line-height: 40px;
   font-size: 29px;
   }
   div#aboutWrapper p{
-  line-height: 26px;
+  line-height: 30px;
   }
   div#patronDonationWrapper{
   font-size: 18px;

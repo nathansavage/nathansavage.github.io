@@ -328,6 +328,11 @@ width: 20px;
 height: 20px;
 margin: 10px;
 }
+div.newest img{
+width: 20px;
+height: 20px;
+margin: 10.3px 10px 9.7px 10px;
+}
 div.older img, div.newer img{
 width: 30px;
 height: 30px;

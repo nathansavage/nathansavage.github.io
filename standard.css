@@ -1,4 +1,4 @@
-/* LAST UPDATED 1636777380.3164427 */
+/* LAST UPDATED 1637619105.186851 */
 
 
 
@@ -166,6 +166,15 @@ src: url(https://fonts.gstatic.com/s/quicksand/v22/6xKtdSZaM9iE8KbpRA_hK1QN.woff
 unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193,
 U+2212, U+2215, U+FEFF, U+FFFD;
 }
+/* latin */
+@font-face {
+font-family: 'Six Caps';
+font-style: normal;
+font-weight: 400;
+font-display: swap;
+src: url(https://fonts.gstatic.com/s/sixcaps/v11/6ae_4KGrU7VR7bNmaYcV_3Q.woff2) format('woff2');
+unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
 /* END FONTS */
 
 
@@ -209,6 +218,9 @@ color: rgb(0,0,0);
 background-color: rgba(255,255,255,0);
 }
 a#fourzerofour{
+font-family: 'Six Caps', sans-serif;
+font-style: normal;
+font-size: 50px;
 border-top: 1px solid rgb(0,0,0);
 border-bottom: 1px solid rgb(0,0,0);
 }
@@ -320,7 +332,7 @@ div#bottomNav a.copyright, div#bottomNav div.copyright{
 width: auto;
 font-size: 12px;
 line-height: 40px;
-color: rgb(222,222,222);
+color: rgb(128,128,128);
 }
 div.left img, div.right img{
 display: block;
@@ -384,8 +396,11 @@ background-color: rgb(222,222,222);
 outline: none;
 }
 div#textWrapper h1{
-padding: 5.5px 0 16.5px 0;
-font-size: 20px;
+font-family: 'Six Caps', sans-serif;
+font-style: normal;
+font-weight: 400;
+padding: 5.5px 0 22.5px 0;
+font-size: 43px;
 text-align: center;
 border-bottom: 1px solid rgb(0,0,0);
 margin-bottom: 10px;
@@ -400,7 +415,17 @@ div#textWrapper p:first-of-type{
 text-indent: 0;
 }
 div#textWrapper p:first-of-type:first-letter{
-font-size: 28px;
+font-family: 'Six Caps', sans-serif;
+display: block;
+float: left;
+margin-right: 8px;    
+font-size: 72px;
+line-height: 69px;
+}
+@-moz-document url-prefix(){
+  div#textWrapper p:first-of-type:first-letter{
+  padding-top: 7px;
+  }
 }
 div#textWrapper p:last-of-type{
 margin: 0 0 0 0;
@@ -433,8 +458,11 @@ border-top: 1px solid rgb(0,0,0);
 border-bottom: 1px solid rgb(0,0,0);
 }
 div#linkListWrapper h1{
-padding: 5.5px 0 15.5px 0;
-font-size: 20px;
+font-family: 'Six Caps', sans-serif;
+font-style: normal;
+font-weight: 400;
+padding: 5.5px 0 22.5px 0;
+font-size: 43px;
 text-align: center;
 border-bottom: 1px solid rgb(0,0,0);
 }
@@ -534,8 +562,11 @@ padding: 10px;
 font-size: 14px;
 }
 div#contactWrapper h1{
-padding: 5.5px 0 15.5px 0;
-font-size: 20px;
+font-family: 'Six Caps', sans-serif;
+font-style: normal;
+font-weight: 400;
+padding: 5.5px 0 22.5px 0;
+font-size: 43px;
 text-align: center;
 border-bottom: 1px solid rgb(0,0,0);
 }
@@ -603,8 +634,11 @@ background-color: rgb(222,222,222);
 outline: none;
 }
 div#aboutWrapper h1{
-padding: 5.5px 0 15.5px 0;
-font-size: 20px;
+font-family: 'Six Caps', sans-serif;
+font-style: normal;
+font-weight: 400;
+padding: 5.5px 0 22.5px 0;
+font-size: 43px;
 text-align: center;
 border-bottom: 1px solid rgb(0,0,0);
 margin-bottom: 10px;
@@ -638,8 +672,11 @@ border-top: 1px solid rgb(0,0,0);
 border-bottom: 1px solid rgb(0,0,0);
 }
 div#patronDonationWrapper h1{
-padding: 5.5px 0 15.5px 0;
-font-size: 20px;
+font-family: 'Six Caps', sans-serif;
+font-style: normal;
+font-weight: 400;
+padding: 5.5px 0 22.5px 0;
+font-size: 43px;
 text-align: center;
 border-bottom: 1px solid rgb(0,0,0);
 }
@@ -917,6 +954,9 @@ line-height: 40px;
   font-size: 18px;
   line-height: 337.5px;
   }
+  a#fourzerofour{
+  font-size: 100px;
+  }
   div#topNav, div#bottomNav{
   width: 600px;
   }
@@ -924,20 +964,29 @@ line-height: 40px;
   font-size: 18px;
   }
   div#textWrapper h1{
-  font-size: 29px;
+  font-size: 56px;
+  padding: 5.5px 0 23.5px 0;
   }
   div#textWrapper p{
   line-height: 30px;
   text-indent: 0.5in;
   }
   div#textWrapper p:first-of-type:first-letter{
-  font-size: 36px;
+  margin-right: 8px;    
+  font-size: 93px;
+  line-height: 90px;
+  }
+  @-moz-document url-prefix(){
+    div#textWrapper p:first-of-type:first-letter{
+    padding-top: 9px;
+    }
   }
   div#linkListWrapper{
   font-size: 18px;
   }
   div#linkListWrapper h1{
-  font-size: 29px;
+  font-size: 56px;
+  padding: 5.5px 0 23.5px 0;
   }
   div#linkListWrapper .posting .leftDivText{
   width: 54.3px;
@@ -951,13 +1000,15 @@ line-height: 40px;
   font-size: 18px;
   }
   div#contactWrapper h1{
-  font-size: 29px;
+  font-size: 56px;
+  padding: 5.5px 0 23.5px 0;
   }
   div#aboutWrapper{
   font-size: 18px;
   }
   div#aboutWrapper h1{
-  font-size: 29px;
+  font-size: 56px;
+  padding: 5.5px 0 23.5px 0;
   }
   div#aboutWrapper p{
   line-height: 30px;
@@ -966,7 +1017,8 @@ line-height: 40px;
   font-size: 18px;
   }
   div#patronDonationWrapper h1{
-  font-size: 29px;
+  font-size: 56px;
+  padding: 5.5px 0 23.5px 0;
   }
 }/* END 600PX */
 

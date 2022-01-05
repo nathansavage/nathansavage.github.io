@@ -1,4 +1,4 @@
-/* LAST UPDATED 1637619105.186851 */
+/* LAST UPDATED 1641370658.3460648 */
 
 
 
@@ -418,9 +418,11 @@ div#textWrapper p:first-of-type:first-letter{
 font-family: 'Six Caps', sans-serif;
 display: block;
 float: left;
-margin-right: 8px;    
-font-size: 72px;
-line-height: 69px;
+margin-right: 8px;
+font-size: 70px;
+line-height: 67px;
+/*font-size: 72px;
+line-height: 69px;*/
 }
 @-moz-document url-prefix(){
   div#textWrapper p:first-of-type:first-letter{
@@ -972,9 +974,11 @@ line-height: 40px;
   text-indent: 0.5in;
   }
   div#textWrapper p:first-of-type:first-letter{
-  margin-right: 8px;    
-  font-size: 93px;
-  line-height: 90px;
+  margin-right: 8px;
+  font-size: 91px;
+  line-height: 88px;
+/*  font-size: 93px;
+  line-height: 90px;*/
   }
   @-moz-document url-prefix(){
     div#textWrapper p:first-of-type:first-letter{

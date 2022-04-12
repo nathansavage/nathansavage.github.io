@@ -1,4 +1,4 @@
-/* LAST UPDATED 1642540823.4598238 */
+/* LAST UPDATED 1649798037.4967887 */
 
 
 
@@ -544,6 +544,126 @@ div#linkListWrapper .posting .rightDiv .postingDate{
 font-size: 12px;
 color: rgb(128,128,128);
 }
+div#musicWrapper{
+background-color: rgb(255,255,255);
+padding: 10px;
+font-size: 14px;
+border-top: 1px solid rgb(0,0,0);
+border-bottom: 1px solid rgb(0,0,0);
+}
+div#musicWrapper a:focus, div#musicWrapper a:visited:focus{
+outline: none;
+}
+div#musicWrapper a:focus div.listItem, div#musicWrapper a:visited:focus div.listItem{
+background-color: rgb(222,222,222);
+outline: none;
+}
+div#musicWrapper{
+background-color: rgb(255,255,255);
+padding: 10px;
+font-size: 14px;
+}
+div#musicWrapper h1{
+font-family: 'Six Caps', sans-serif;
+font-style: normal;
+font-weight: 400;
+padding: 5.5px 0 22.5px 0;
+font-size: 43px;
+text-align: center;
+border-bottom: 1px solid rgb(0,0,0);
+}
+div#musicWrapper a, div#musicWrapper a:visited{
+text-decoration: none;
+color: rgb(0,0,0);
+}
+div#musicWrapper .listItem{
+overflow: auto;
+width: 100%;
+border-bottom: 1px solid rgb(0,0,0);
+}
+div#musicWrapper .lastItem{
+border-bottom: none;
+margin-bottom: -10px;
+}
+div#musicWrapper .musicOption{
+display: block;
+float: left;
+width: auto;
+}
+div#musicWrapper .musicOption img{
+display: block;
+float: left;
+width: 20px;
+height: 20px;
+margin: 10px 10px 10px 0;
+}
+div#musicWrapper .musicOption .musicOptionText{
+display: block;
+float: left;
+width: auto;
+height: 40px;
+line-height: 40px;
+}
+div#storeWrapper{
+background-color: rgb(255,255,255);
+padding: 10px;
+font-size: 14px;
+border-top: 1px solid rgb(0,0,0);
+border-bottom: 1px solid rgb(0,0,0);
+}
+div#storeWrapper a:focus, div#storeWrapper a:visited:focus{
+outline: none;
+}
+div#storeWrapper a:focus div.listItem, div#storeWrapper a:visited:focus div.listItem{
+background-color: rgb(222,222,222);
+outline: none;
+}
+div#storeWrapper{
+background-color: rgb(255,255,255);
+padding: 10px;
+font-size: 14px;
+}
+div#storeWrapper h1{
+font-family: 'Six Caps', sans-serif;
+font-style: normal;
+font-weight: 400;
+padding: 5.5px 0 22.5px 0;
+font-size: 43px;
+text-align: center;
+border-bottom: 1px solid rgb(0,0,0);
+}
+div#storeWrapper a, div#storeWrapper a:visited{
+text-decoration: none;
+color: rgb(0,0,0);
+}
+div#storeWrapper .listItem{
+overflow: auto;
+width: 100%;
+border-bottom: 1px solid rgb(0,0,0);
+}
+div#storeWrapper .lastItem{
+border-bottom: none;
+margin-bottom: -10px;
+}
+div#storeWrapper .storeOption{
+display: block;
+float: left;
+width: auto;
+}
+div#storeWrapper .storeOption img{
+display: block;
+float: left;
+width: 20px;
+height: 20px;
+margin: 10px 10px 10px 0;
+}
+div#storeWrapper .storeOption .storeOptionText{
+display: block;
+float: left;
+width: auto;
+height: 40px;
+line-height: 40px;
+}
 div#contactWrapper{
 background-color: rgb(255,255,255);
 padding: 10px;
@@ -999,6 +1119,20 @@ line-height: 40px;
   width: 455.7px;
   line-height: 26px;
   margin: 7.5px 0 7.5px 0;
+  }
+  div#musicWrapper{
+  font-size: 18px;
+  }
+  div#musicWrapper h1{
+  font-size: 56px;
+  padding: 5.5px 0 23.5px 0;
+  }
+  div#storeWrapper{
+  font-size: 18px;
+  }
+  div#storeWrapper h1{
+  font-size: 56px;
+  padding: 5.5px 0 23.5px 0;
   }
   div#contactWrapper{
   font-size: 18px;

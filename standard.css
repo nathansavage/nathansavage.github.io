@@ -1,4 +1,4 @@
-/* LAST UPDATED 1669047416.0793314 */
+/* LAST UPDATED 1671474804.5234213 */
 
 
 
@@ -728,6 +728,11 @@ height: 19px;
 margin: 10.5px 10.5px 10.5px 0;
 }
 div#contactWrapper .instagram img{
+width: 19px;
+height: 19px;
+margin: 10.5px 10.5px 10.5px 0;
+}
+div#contactWrapper .mastodon img{
 width: 19px;
 height: 19px;
 margin: 10.5px 10.5px 10.5px 0;

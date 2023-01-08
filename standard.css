@@ -1,4 +1,4 @@
-/* LAST UPDATED 1671474804.5234213 */
+/* LAST UPDATED 1673138231.3883543 */
 
 
 
@@ -749,6 +749,12 @@ width: auto;
 height: 40px;
 line-height: 40px;
 }
+div#contactWrapper .contactOption .contactOptionText span.longUsername{
+display: none;
+}
+div#contactWrapper .contactOption .contactOptionText span.ellipsis{
+display: inline;
+}
 div#aboutWrapper{
 background-color: rgb(255,255,255);
 padding: 10px;
@@ -854,6 +860,12 @@ line-height: 40px;
 @media (min-width: 360px) and (min-height: 282.5px){
   div#contentWrapper{
   width: 360px;
+  }
+  div#contactWrapper .contactOption .contactOptionText span.longUsername{
+  display: inline;
+  }
+  div#contactWrapper .contactOption .contactOptionText span.ellipsis{
+  display: none;
   }
   iframe.youtube, a#fourzerofour, a#fourzerofour:visited{
   width: 360px;

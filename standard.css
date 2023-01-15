@@ -1,4 +1,4 @@
-/* LAST UPDATED 1673138231.3883543 */
+/* LAST UPDATED 1673740454.213419 */
 
 
 
@@ -184,7 +184,7 @@ body{
 font-family: 'Quicksand', sans-serif;
 font-weight: 500;
 color: rgb(0,0,0);
-background-color: rgb(255,255,255);
+background-color: rgb(210,210,210);
 }
 .hidden{
 display: none;
@@ -215,7 +215,6 @@ text-align: center;
 font-size: 14px;
 text-decoration: none;
 color: rgb(0,0,0);
-background-color: rgba(255,255,255,0);
 }
 a#fourzerofour{
 font-family: 'Six Caps', sans-serif;
@@ -223,6 +222,7 @@ font-style: normal;
 font-size: 50px;
 border-top: 1px solid rgb(0,0,0);
 border-bottom: 1px solid rgb(0,0,0);
+background-color: rgb(255,255,255);
 }
 a#fourzerofour:focus, a#fourzerofour:visited:focus{
 outline: 1px solid rgb(0,0,0);
@@ -392,7 +392,7 @@ text-decoration: underline;
 color: rgb(0,0,0);
 }
 div#textWrapper a:focus, div#textWrapper a:visited:focus{
-background-color: rgb(222,222,222);
+background-color: rgb(210,210,210);
 outline: none;
 }
 div#textWrapper h1{
@@ -476,7 +476,7 @@ div#linkListWrapper a:focus, div#linkListWrapper a:visited:focus{
 outline: none;
 }
 div#linkListWrapper a:focus div.listItem, div#linkListWrapper a:visited:focus div.listItem{
-background-color: rgb(222,222,222);
+background-color: rgb(210,210,210);
 outline: none;
 }
 div#linkListWrapper .listItem{
@@ -508,7 +508,7 @@ height: 40px;
 line-height: 40px;
 }
 div#linkListWrapper .newerOlder .newerOlderText span.newerOlderLight{
-color: rgb(222,222,222);
+color: rgb(210,210,210);
 }
 div#linkListWrapper .posting{
 width: 100%;
@@ -555,7 +555,7 @@ div#musicWrapper a:focus, div#musicWrapper a:visited:focus{
 outline: none;
 }
 div#musicWrapper a:focus div.listItem, div#musicWrapper a:visited:focus div.listItem{
-background-color: rgb(222,222,222);
+background-color: rgb(210,210,210);
 outline: none;
 }
 div#musicWrapper{
@@ -615,7 +615,7 @@ div#storeWrapper a:focus, div#storeWrapper a:visited:focus{
 outline: none;
 }
 div#storeWrapper a:focus div.listItem, div#storeWrapper a:visited:focus div.listItem{
-background-color: rgb(222,222,222);
+background-color: rgb(210,210,210);
 outline: none;
 }
 div#storeWrapper{
@@ -675,7 +675,7 @@ div#contactWrapper a:focus, div#contactWrapper a:visited:focus{
 outline: none;
 }
 div#contactWrapper a:focus div.listItem, div#contactWrapper a:visited:focus div.listItem{
-background-color: rgb(222,222,222);
+background-color: rgb(210,210,210);
 outline: none;
 }
 div#contactWrapper{
@@ -763,7 +763,7 @@ border-top: 1px solid rgb(0,0,0);
 border-bottom: 1px solid rgb(0,0,0);
 }
 div#aboutWrapper a:focus, div#aboutWrapper a:visited:focus{
-background-color: rgb(222,222,222);
+background-color: rgb(210,210,210);
 outline: none;
 }
 div#aboutWrapper h1{
@@ -821,7 +821,7 @@ div#patronDonationWrapper a:focus, div#patronDonationWrapper a:visited:focus{
 outline: none;
 }
 div#patronDonationWrapper a:focus div.listItem, div#patronDonationWrapper a:visited:focus div.listItem{
-background-color: rgb(222,222,222);
+background-color: rgb(210,210,210);
 outline: none;
 }
 div#patronDonationWrapper .listItem{

@@ -323,9 +323,9 @@ position: absolute;
 left: 40px;
 }
 div#bottomNav a.copyright{
-margin: 0 10px 0 0;
-position: absolute;
-right: 0;
+display: block;
+float: right;
+margin: 0 0 0 0;
 text-align: right;
 }
 div#bottomNav a.copyright, div#bottomNav div.copyright{
@@ -379,6 +379,11 @@ div.deezer img{
 width: 23px;
 height: 23px;
 margin: 8.5px;
+}
+div.rss img{
+width: 16px;
+height: 16px;
+margin: 12px;
 }
 div#textWrapper{
 padding: 10px;

@@ -1,4 +1,4 @@
-/* LAST UPDATED 1675620583.1621726 */
+/* LAST UPDATED 1677628032.479386 */
 
 
 
@@ -308,20 +308,6 @@ background-color: rgb(255,255,255);
 border-radius: 0;
 overflow: hidden;
 }
-div#bottomNav a.textPatronDonationOptions{
-position: absolute;
-left: 40px;
-}
-input[type=checkbox]#gridMenuButton ~ a.musicVideoPatronDonationOptions,
-input[type=checkbox]#gridMenuButton:checked ~ a.musicVideoPatronDonationOptions{
-position: absolute;
-left: 40px;
-}
-input[type=checkbox]#gridMenuButton ~ a.videoPatronDonationOptions,
-input[type=checkbox]#gridMenuButton:checked ~ a.videoPatronDonationOptions{
-position: absolute;
-left: 40px;
-}
 div#bottomNav a.copyright{
 display: block;
 float: right;
@@ -354,11 +340,6 @@ div.gridMenuButton img{
 width: 20px;
 height: 20px;
 margin: 10px;
-}
-div.donations img{
-width: 18px;
-height: 18px;
-margin: 11px;
 }
 div.spotify img{
 width: 22px;
@@ -802,61 +783,6 @@ div#aboutWrapper a, div#aboutWrapper a:visited{
 text-decoration: underline;
 color: rgb(0,0,0);
 }
-div#patronDonationWrapper{
-background-color: rgb(255,255,255);
-padding: 10px;
-font-size: 14px;
-border-top: 1px solid rgb(0,0,0);
-border-bottom: 1px solid rgb(0,0,0);
-}
-div#patronDonationWrapper h1{
-font-family: 'Six Caps', sans-serif;
-font-style: normal;
-font-weight: 400;
-padding: 5.5px 0 22.5px 0;
-font-size: 43px;
-text-align: center;
-border-bottom: 1px solid rgb(0,0,0);
-}
-div#patronDonationWrapper a, div#patronDonationWrapper a:visited{
-text-decoration: none;
-color: rgb(0,0,0);
-}
-div#patronDonationWrapper a:focus, div#patronDonationWrapper a:visited:focus{
-outline: none;
-}
-div#patronDonationWrapper a:focus div.listItem, div#patronDonationWrapper a:visited:focus div.listItem{
-background-color: rgb(210,210,210);
-outline: none;
-}
-div#patronDonationWrapper .listItem{
-overflow: auto;
-width: 100%;
-border-bottom: 1px solid rgb(0,0,0);
-}
-div#patronDonationWrapper .lastItem{
-border-bottom: none;
-margin-bottom: -10px;
-}
-div#patronDonationWrapper .patronDonationOption{
-display: block;
-float: left;
-width: auto;
-}
-div#patronDonationWrapper .patronDonationOption img{
-display: block;
-float: left;
-width: 20px;
-height: 20px;
-margin: 10px 10px 10px 0;
-}
-div#patronDonationWrapper .patronDonationOption .patronDonationOptionText{
-display: block;
-float: left;
-width: auto;
-height: 40px;
-line-height: 40px;
-}
 /* END GENERAL */
 
 
@@ -1173,13 +1099,6 @@ line-height: 40px;
   div#aboutWrapper p{
   line-height: 30px;
   }
-  div#patronDonationWrapper{
-  font-size: 18px;
-  }
-  div#patronDonationWrapper h1{
-  font-size: 56px;
-  padding: 5.5px 0 23.5px 0;
-  }
 }/* END 600PX */
 
 
@@ -1232,12 +1151,11 @@ line-height: 40px;
   div#topNav, div#bottomNav, a#fourzerofour{
   display: none;
   }
-  div#textWrapper, div#linkListWrapper, div#musicWrapper, div#storeWrapper, div#contactWrapper, div#aboutWrapper, div#patronDonationWrapper{
+  div#textWrapper, div#linkListWrapper, div#musicWrapper, div#storeWrapper, div#contactWrapper, div#aboutWrapper{
   border-top: 0px;
   border-bottom: 0px;
   }
-  div#linkListWrapper a div.lastItem, div#musicWrapper a div.lastItem, div#storeWrapper a div.lastItem, div#contactWrapper a div.lastItem,
-  div#patronDonationWrapper a div.lastItem{
+  div#linkListWrapper a div.lastItem, div#musicWrapper a div.lastItem, div#storeWrapper a div.lastItem, div#contactWrapper a div.lastItem{
   border-bottom: 1px solid rgb(0,0,0);
   }
 }/* END PRINT */

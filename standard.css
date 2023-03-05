@@ -1,4 +1,4 @@
-/* LAST UPDATED 1678041664.7681165 */
+/* LAST UPDATED 1678055201.6136682 */
 
 
 
@@ -329,12 +329,32 @@ margin: 10px;
 div.newest img{
 width: 20px;
 height: 20px;
-margin: 10px 10px 10px 10px;
+margin: 10px;
 }
 div.older img, div.newer img{
-width: 30px;
-height: 30px;
-margin: 5px;
+width: 29.5px;
+height: 29.5px;
+margin: 5.25px;
+}
+div.postings img{
+width: 21px;
+height: 21px;
+margin: 9.5px 9.5px 9.5px 9.5px;
+}
+div.music img{
+width: 19.5px;
+height: 19.5px;
+margin: 10.25px 10.25px 10.25px 10.25px;
+}
+div.store img{
+width: 20.5px;
+height: 20.5px;
+margin: 9.75px 9.75px 9.75px 9.75px;
+}
+div.info img{
+width: 19.5px;
+height: 19.5px;
+margin: 10.25px 10.25px 10.25px 10.25px;
 }
 div.gridMenuButton img{
 width: 20px;

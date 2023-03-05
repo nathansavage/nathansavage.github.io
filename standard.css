@@ -1,4 +1,4 @@
-/* LAST UPDATED 1677628032.479386 */
+/* LAST UPDATED 1678041664.7681165 */
 
 
 
@@ -341,25 +341,25 @@ width: 20px;
 height: 20px;
 margin: 10px;
 }
-div.spotify img{
-width: 22px;
-height: 22px;
-margin: 9px;
+div.amazon img{
+width: 18px;
+height: 18px;
+margin: 12.5px 11px 9.5px 11px;
 }
 div.apple img{
 width: 22px;
 height: 22px;
 margin: 8px 9px 10px 9px;
 }
-div.amazon img{
-width: 18px;
-height: 18px;
-margin: 12.5px 11px 9.5px 11px;
-}
 div.deezer img{
 width: 23px;
 height: 23px;
 margin: 8.5px;
+}
+div.spotify img{
+width: 22px;
+height: 22px;
+margin: 9px;
 }
 div.rss img{
 width: 16px;
@@ -582,6 +582,26 @@ float: left;
 width: 20px;
 height: 20px;
 margin: 10px 10px 10px 0;
+}
+div#musicWrapper .amazon img{
+width: 18px;
+height: 18px;
+margin: 12.5px 11px 9.5px 0;
+}
+div#musicWrapper .apple img{
+width: 22px;
+height: 22px;
+margin: 8px 9px 10px 0;
+}
+div#musicWrapper .deezer img{
+width: 23px;
+height: 23px;
+margin: 8.5px 8.5px 8.5px 0;
+}
+div#musicWrapper .spotify img{
+width: 22px;
+height: 22px;
+margin: 9px 9px 9px 0;
 }
 div#musicWrapper .musicOption .musicOptionText{
 display: block;

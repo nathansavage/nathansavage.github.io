@@ -1,1 +1,1 @@
-**nathansavage.github.io** is the source of the files served at **https://nathansavagestudio.com/**
+The source of the pages served at **https://nathansavagestudio.com/**

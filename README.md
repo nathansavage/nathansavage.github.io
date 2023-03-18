@@ -1,1 +1,1 @@
-nathansavage.github.io hosts the static website served at https://nathansavagestudio.com/
+**nathansavage.github.io** is the source of the files served at **https://nathansavagestudio.com/**

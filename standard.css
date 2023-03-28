@@ -1,4 +1,4 @@
-/* LAST UPDATED 1678057206.823235 */
+/* LAST UPDATED 1679976085.1213043 */
 
 
 
@@ -425,14 +425,12 @@ font-family: 'Six Caps', sans-serif;
 display: block;
 float: left;
 margin-right: 8px;
-font-size: 70px;
-line-height: 67px;
-/*font-size: 72px;
-line-height: 69px;*/
+font-size: 43px;
+line-height: 44px;
 }
 @-moz-document url-prefix(){
   div#textWrapper p:first-of-type:first-letter{
-  padding-top: 7px;
+  padding-top: 6px;
   }
 }
 div#textWrapper p:last-of-type{
@@ -1083,14 +1081,12 @@ color: rgb(0,0,0);
   }
   div#textWrapper p:first-of-type:first-letter{
   margin-right: 8px;
-  font-size: 91px;
-  line-height: 88px;
-/*  font-size: 93px;
-  line-height: 90px;*/
+  font-size: 56px;
+  line-height: 58px;
   }
   @-moz-document url-prefix(){
     div#textWrapper p:first-of-type:first-letter{
-    padding-top: 9px;
+    padding-top: 8.5px;
     }
   }
   div#linkListWrapper{

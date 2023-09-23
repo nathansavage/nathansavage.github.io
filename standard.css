@@ -1,4 +1,4 @@
-/* LAST UPDATED 1679976085.1213043 */
+/* LAST UPDATED 1695488012.306257 */
 
 
 
@@ -25,163 +25,9 @@ outline: none;
 
 
 
-/* FONTS ************************************************************************************************************************************/
-/* vietnamese */
-@font-face{
-font-family: 'Quicksand';
-font-style: normal;
-font-weight: 300;
-font-display: swap;
-src: url(https://fonts.gstatic.com/s/quicksand/v22/6xKtdSZaM9iE8KbpRA_hJFQNcOM.woff2) format('woff2');
-unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
-}
-/* latin-ext */
-@font-face{
-font-family: 'Quicksand';
-font-style: normal;
-font-weight: 300;
-font-display: swap;
-src: url(https://fonts.gstatic.com/s/quicksand/v22/6xKtdSZaM9iE8KbpRA_hJVQNcOM.woff2) format('woff2');
-unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
-}
-/* latin */
-@font-face{
-font-family: 'Quicksand';
-font-style: normal;
-font-weight: 300;
-font-display: swap;
-src: url(https://fonts.gstatic.com/s/quicksand/v22/6xKtdSZaM9iE8KbpRA_hK1QN.woff2) format('woff2');
-unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193,
-U+2212, U+2215, U+FEFF, U+FFFD;
-}
-/* vietnamese */
-@font-face{
-font-family: 'Quicksand';
-font-style: normal;
-font-weight: 400;
-font-display: swap;
-src: url(https://fonts.gstatic.com/s/quicksand/v22/6xKtdSZaM9iE8KbpRA_hJFQNcOM.woff2) format('woff2');
-unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
-}
-/* latin-ext */
-@font-face{
-font-family: 'Quicksand';
-font-style: normal;
-font-weight: 400;
-font-display: swap;
-src: url(https://fonts.gstatic.com/s/quicksand/v22/6xKtdSZaM9iE8KbpRA_hJVQNcOM.woff2) format('woff2');
-unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
-}
-/* latin */
-@font-face{
-font-family: 'Quicksand';
-font-style: normal;
-font-weight: 400;
-font-display: swap;
-src: url(https://fonts.gstatic.com/s/quicksand/v22/6xKtdSZaM9iE8KbpRA_hK1QN.woff2) format('woff2');
-unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193,
-U+2212, U+2215, U+FEFF, U+FFFD;
-}
-/* vietnamese */
-@font-face{
-font-family: 'Quicksand';
-font-style: normal;
-font-weight: 500;
-font-display: swap;
-src: url(https://fonts.gstatic.com/s/quicksand/v22/6xKtdSZaM9iE8KbpRA_hJFQNcOM.woff2) format('woff2');
-unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
-}
-/* latin-ext */
-@font-face{
-font-family: 'Quicksand';
-font-style: normal;
-font-weight: 500;
-font-display: swap;
-src: url(https://fonts.gstatic.com/s/quicksand/v22/6xKtdSZaM9iE8KbpRA_hJVQNcOM.woff2) format('woff2');
-unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
-}
-/* latin */
-@font-face{
-font-family: 'Quicksand';
-font-style: normal;
-font-weight: 500;
-font-display: swap;
-src: url(https://fonts.gstatic.com/s/quicksand/v22/6xKtdSZaM9iE8KbpRA_hK1QN.woff2) format('woff2');
-unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193,
-U+2212, U+2215, U+FEFF, U+FFFD;
-}
-/* vietnamese */
-@font-face{
-font-family: 'Quicksand';
-font-style: normal;
-font-weight: 600;
-font-display: swap;
-src: url(https://fonts.gstatic.com/s/quicksand/v22/6xKtdSZaM9iE8KbpRA_hJFQNcOM.woff2) format('woff2');
-unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
-}
-/* latin-ext */
-@font-face{
-font-family: 'Quicksand';
-font-style: normal;
-font-weight: 600;
-font-display: swap;
-src: url(https://fonts.gstatic.com/s/quicksand/v22/6xKtdSZaM9iE8KbpRA_hJVQNcOM.woff2) format('woff2');
-unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
-}
-/* latin */
-@font-face{
-font-family: 'Quicksand';
-font-style: normal;
-font-weight: 600;
-font-display: swap;
-src: url(https://fonts.gstatic.com/s/quicksand/v22/6xKtdSZaM9iE8KbpRA_hK1QN.woff2) format('woff2');
-unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193,
-U+2212, U+2215, U+FEFF, U+FFFD;
-}
-/* vietnamese */
-@font-face{
-font-family: 'Quicksand';
-font-style: normal;
-font-weight: 700;
-font-display: swap;
-src: url(https://fonts.gstatic.com/s/quicksand/v22/6xKtdSZaM9iE8KbpRA_hJFQNcOM.woff2) format('woff2');
-unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
-}
-/* latin-ext */
-@font-face{
-font-family: 'Quicksand';
-font-style: normal;
-font-weight: 700;
-font-display: swap;
-src: url(https://fonts.gstatic.com/s/quicksand/v22/6xKtdSZaM9iE8KbpRA_hJVQNcOM.woff2) format('woff2');
-unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
-}
-/* latin */
-@font-face{
-font-family: 'Quicksand';
-font-style: normal;
-font-weight: 700;
-font-display: swap;
-src: url(https://fonts.gstatic.com/s/quicksand/v22/6xKtdSZaM9iE8KbpRA_hK1QN.woff2) format('woff2');
-unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193,
-U+2212, U+2215, U+FEFF, U+FFFD;
-}
-/* latin */
-@font-face {
-font-family: 'Six Caps';
-font-style: normal;
-font-weight: 400;
-font-display: swap;
-src: url(https://fonts.gstatic.com/s/sixcaps/v11/6ae_4KGrU7VR7bNmaYcV_3Q.woff2) format('woff2');
-unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-}
-/* END FONTS */
-
-
-
 /* GENERAL **********************************************************************************************************************************/
 body{
-font-family: 'Quicksand', sans-serif;
+font-family: Arial, sans-serif;
 font-weight: 500;
 color: rgb(0,0,0);
 background-color: rgb(210,210,210);
@@ -217,9 +63,9 @@ text-decoration: none;
 color: rgb(0,0,0);
 }
 a#fourzerofour{
-font-family: 'Six Caps', sans-serif;
+font-family: Impact, sans-serif;
 font-style: normal;
-font-size: 50px;
+font-size: 43px;
 border-top: 1px solid rgb(0,0,0);
 border-bottom: 1px solid rgb(0,0,0);
 background-color: rgb(255,255,255);
@@ -402,10 +248,10 @@ background-color: rgb(210,210,210);
 outline: none;
 }
 div#textWrapper h1{
-font-family: 'Six Caps', sans-serif;
+font-family: Impact, sans-serif;
 font-style: normal;
 font-weight: 400;
-padding: 5.5px 0 22.5px 0;
+padding: 8.5px 0 22.5px 0;
 font-size: 43px;
 text-align: center;
 border-bottom: 1px solid rgb(0,0,0);
@@ -421,7 +267,7 @@ div#textWrapper p:first-of-type{
 text-indent: 0;
 }
 div#textWrapper p:first-of-type:first-letter{
-font-family: 'Six Caps', sans-serif;
+font-family: Impact, sans-serif;
 display: block;
 float: left;
 margin-right: 8px;
@@ -464,10 +310,10 @@ border-top: 1px solid rgb(0,0,0);
 border-bottom: 1px solid rgb(0,0,0);
 }
 div#linkListWrapper h1{
-font-family: 'Six Caps', sans-serif;
+font-family: Impact, sans-serif;
 font-style: normal;
 font-weight: 400;
-padding: 5.5px 0 22.5px 0;
+padding: 8.5px 0 22.5px 0;
 font-size: 43px;
 text-align: center;
 border-bottom: 1px solid rgb(0,0,0);
@@ -568,10 +414,10 @@ padding: 10px;
 font-size: 14px;
 }
 div#musicWrapper h1{
-font-family: 'Six Caps', sans-serif;
+font-family: Impact, sans-serif;
 font-style: normal;
 font-weight: 400;
-padding: 5.5px 0 22.5px 0;
+padding: 8.5px 0 22.5px 0;
 font-size: 43px;
 text-align: center;
 border-bottom: 1px solid rgb(0,0,0);
@@ -648,10 +494,10 @@ padding: 10px;
 font-size: 14px;
 }
 div#storeWrapper h1{
-font-family: 'Six Caps', sans-serif;
+font-family: Impact, sans-serif;
 font-style: normal;
 font-weight: 400;
-padding: 5.5px 0 22.5px 0;
+padding: 8.5px 0 22.5px 0;
 font-size: 43px;
 text-align: center;
 border-bottom: 1px solid rgb(0,0,0);
@@ -708,10 +554,10 @@ padding: 10px;
 font-size: 14px;
 }
 div#contactWrapper h1{
-font-family: 'Six Caps', sans-serif;
+font-family: Impact, sans-serif;
 font-style: normal;
 font-weight: 400;
-padding: 5.5px 0 22.5px 0;
+padding: 8.5px 0 22.5px 0;
 font-size: 43px;
 text-align: center;
 border-bottom: 1px solid rgb(0,0,0);
@@ -791,10 +637,10 @@ background-color: rgb(210,210,210);
 outline: none;
 }
 div#aboutWrapper h1{
-font-family: 'Six Caps', sans-serif;
+font-family: Impact, sans-serif;
 font-style: normal;
 font-weight: 400;
-padding: 5.5px 0 22.5px 0;
+padding: 8.5px 0 22.5px 0;
 font-size: 43px;
 text-align: center;
 border-bottom: 1px solid rgb(0,0,0);
@@ -1063,7 +909,7 @@ color: rgb(0,0,0);
   line-height: 337.5px;
   }
   a#fourzerofour{
-  font-size: 100px;
+  font-size: 56px;
   }
   div#topNav, div#bottomNav{
   width: 600px;
@@ -1073,7 +919,7 @@ color: rgb(0,0,0);
   }
   div#textWrapper h1{
   font-size: 56px;
-  padding: 5.5px 0 23.5px 0;
+  padding: 8.5px 0 23.5px 0;
   }
   div#textWrapper p{
   line-height: 30px;
@@ -1094,7 +940,7 @@ color: rgb(0,0,0);
   }
   div#linkListWrapper h1{
   font-size: 56px;
-  padding: 5.5px 0 23.5px 0;
+  padding: 8.5px 0 23.5px 0;
   }
   div#linkListWrapper .posting .leftDivText{
   width: 54.3px;
@@ -1109,28 +955,28 @@ color: rgb(0,0,0);
   }
   div#musicWrapper h1{
   font-size: 56px;
-  padding: 5.5px 0 23.5px 0;
+  padding: 8.5px 0 23.5px 0;
   }
   div#storeWrapper{
   font-size: 18px;
   }
   div#storeWrapper h1{
   font-size: 56px;
-  padding: 5.5px 0 23.5px 0;
+  padding: 8.5px 0 23.5px 0;
   }
   div#contactWrapper{
   font-size: 18px;
   }
   div#contactWrapper h1{
   font-size: 56px;
-  padding: 5.5px 0 23.5px 0;
+  padding: 8.5px 0 23.5px 0;
   }
   div#aboutWrapper{
   font-size: 18px;
   }
   div#aboutWrapper h1{
   font-size: 56px;
-  padding: 5.5px 0 23.5px 0;
+  padding: 8.5px 0 23.5px 0;
   }
   div#aboutWrapper p{
   line-height: 30px;

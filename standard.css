@@ -1,4 +1,4 @@
-/* LAST UPDATED 1695676450.9580996 */
+/* LAST UPDATED 1696270367.284773 */
 
 
 
@@ -233,7 +233,7 @@ height: 16px;
 margin: 12px;
 }
 div#textWrapper{
-padding: 10px;
+padding: 11px 10px 10px 10px;
 font-size: 14px;
 background-color: rgb(255,255,255);
 border-top: 1px solid rgb(0,0,0);
@@ -304,7 +304,7 @@ padding-top: 10px;
 }
 div#linkListWrapper{
 background-color: rgb(255,255,255);
-padding: 10px;
+padding: 11px 10px 10px 10px;
 font-size: 14px;
 border-top: 1px solid rgb(0,0,0);
 border-bottom: 1px solid rgb(0,0,0);
@@ -396,7 +396,7 @@ color: rgb(128,128,128);
 }
 div#musicWrapper{
 background-color: rgb(255,255,255);
-padding: 10px;
+padding: 11px 10px 10px 10px;
 font-size: 14px;
 border-top: 1px solid rgb(0,0,0);
 border-bottom: 1px solid rgb(0,0,0);
@@ -407,11 +407,6 @@ outline: none;
 div#musicWrapper a:focus div.listItem, div#musicWrapper a:visited:focus div.listItem{
 background-color: rgb(210,210,210);
 outline: none;
-}
-div#musicWrapper{
-background-color: rgb(255,255,255);
-padding: 10px;
-font-size: 14px;
 }
 div#musicWrapper h1{
 font-family: Anton, Impact, sans-serif;
@@ -476,7 +471,7 @@ line-height: 40px;
 }
 div#storeWrapper{
 background-color: rgb(255,255,255);
-padding: 10px;
+padding: 11px 10px 10px 10px;
 font-size: 14px;
 border-top: 1px solid rgb(0,0,0);
 border-bottom: 1px solid rgb(0,0,0);
@@ -487,11 +482,6 @@ outline: none;
 div#storeWrapper a:focus div.listItem, div#storeWrapper a:visited:focus div.listItem{
 background-color: rgb(210,210,210);
 outline: none;
-}
-div#storeWrapper{
-background-color: rgb(255,255,255);
-padding: 10px;
-font-size: 14px;
 }
 div#storeWrapper h1{
 font-family: Anton, Impact, sans-serif;
@@ -536,7 +526,7 @@ line-height: 40px;
 }
 div#contactWrapper{
 background-color: rgb(255,255,255);
-padding: 10px;
+padding: 11px 10px 10px 10px;
 font-size: 14px;
 border-top: 1px solid rgb(0,0,0);
 border-bottom: 1px solid rgb(0,0,0);
@@ -547,11 +537,6 @@ outline: none;
 div#contactWrapper a:focus div.listItem, div#contactWrapper a:visited:focus div.listItem{
 background-color: rgb(210,210,210);
 outline: none;
-}
-div#contactWrapper{
-background-color: rgb(255,255,255);
-padding: 10px;
-font-size: 14px;
 }
 div#contactWrapper h1{
 font-family: Anton, Impact, sans-serif;
@@ -627,7 +612,7 @@ display: inline;
 }
 div#aboutWrapper{
 background-color: rgb(255,255,255);
-padding: 10px;
+padding: 11px 10px 10px 10px;
 font-size: 14px;
 border-top: 1px solid rgb(0,0,0);
 border-bottom: 1px solid rgb(0,0,0);
@@ -915,6 +900,7 @@ color: rgb(0,0,0);
   width: 600px;
   }
   div#textWrapper{
+  padding: 11px 40px 32px 40px;
   font-size: 18px;
   }
   div#textWrapper h1{
@@ -972,6 +958,7 @@ color: rgb(0,0,0);
   padding: 8.5px 0 23.5px 0;
   }
   div#aboutWrapper{
+  padding: 11px 40px 32px 40px;
   font-size: 18px;
   }
   div#aboutWrapper h1{

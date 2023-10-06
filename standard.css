@@ -1,4 +1,4 @@
-/* LAST UPDATED 1696270367.284773 */
+/* LAST UPDATED 1696608641.775945 */
 
 
 
@@ -1024,7 +1024,18 @@ color: rgb(0,0,0);
   border-top: 0px;
   border-bottom: 0px;
   }
+  div#textWrapper a, div#linkListWrapper a, div#musicWrapper a, div#storeWrapper a, div#contactWrapper a, div#aboutWrapper a{
+  text-decoration: none;
+  color: rgb(128,0,128);
+  }
+  div#textWrapper a::after, div#linkListWrapper a::after, div#musicWrapper a::after, div#storeWrapper a::after, div#contactWrapper a::after,
+  div#aboutWrapper a::after{
+  content: " "attr(href)"";
+  color: rgb(0,0,255);
+  }
   div#linkListWrapper a div.lastItem, div#musicWrapper a div.lastItem, div#storeWrapper a div.lastItem, div#contactWrapper a div.lastItem{
   border-bottom: 1px solid rgb(0,0,0);
   }
 }/* END PRINT */
+
+

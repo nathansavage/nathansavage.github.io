@@ -1,4 +1,4 @@
-/* LAST UPDATED 1696608641.775945 */
+/* LAST UPDATED 1697307295.2727401 */
 
 
 
@@ -922,6 +922,7 @@ color: rgb(0,0,0);
     }
   }
   div#linkListWrapper{
+  padding: 11px 40px 50px 40px;
   font-size: 18px;
   }
   div#linkListWrapper h1{
@@ -932,18 +933,28 @@ color: rgb(0,0,0);
   width: 54.3px;
   }
   div#linkListWrapper .posting .rightDiv .rightDivText{
-  width: 455.7px;
+  width: 395.7px;
   line-height: 26px;
   margin: 7.5px 0 7.5px 0;
   }
+  div#linkListWrapper .lastItem{
+  border-bottom: 1px solid rgb(0,0,0);
+  margin-bottom: -10px;
+  }
   div#musicWrapper{
+  padding: 11px 40px 50px 40px;
   font-size: 18px;
   }
   div#musicWrapper h1{
   font-size: 56px;
   padding: 8.5px 0 23.5px 0;
   }
+  div#musicWrapper .lastItem{
+  border-bottom: 1px solid rgb(0,0,0);
+  margin-bottom: -10px;
+  }
   div#storeWrapper{
+  padding: 11px 40px 50px 40px;
   font-size: 18px;
   }
   div#storeWrapper h1{
@@ -951,11 +962,16 @@ color: rgb(0,0,0);
   padding: 8.5px 0 23.5px 0;
   }
   div#contactWrapper{
+  padding: 11px 40px 50px 40px;
   font-size: 18px;
   }
   div#contactWrapper h1{
   font-size: 56px;
   padding: 8.5px 0 23.5px 0;
+  }
+  div#contactWrapper .lastItem{
+  border-bottom: 1px solid rgb(0,0,0);
+  margin-bottom: -10px;
   }
   div#aboutWrapper{
   padding: 11px 40px 32px 40px;
@@ -986,7 +1002,7 @@ color: rgb(0,0,0);
   width: 768px;
   }
   div#linkListWrapper .posting .rightDiv .rightDivText{
-  width: 623.7px;
+  width: 563.7px;
   }
 }/* END 768PX */
 
@@ -1006,7 +1022,7 @@ color: rgb(0,0,0);
   width: 800px;
   }
   div#linkListWrapper .posting .rightDiv .rightDivText{
-  width: 655.7px;
+  width: 595.7px;
   }
 }/* END 800PX */
 
